@@ -17,5 +17,4 @@
 
         tools:layout_editor_absoluteX="8dp" >
     </FrameLayout>
-
 </RelativeLayout>
