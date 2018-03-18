@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/korku02/Downloads/openhouseapp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v13/values-v13.xml",
+            "outputFile": "/Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v13/values-v13.xml",
             "map": [
                 {
                     "source": "/Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/res/values-v13/values-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/sacku/Desktop/work/openhouse/OpenHouse18/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v13/values-v13.xml",
-            "map": [
-                {
-                    "source": "/home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/res/values-v13/values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

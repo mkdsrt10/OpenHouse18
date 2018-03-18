@@ -1,12 +1,9 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -84,8 +81,12 @@ public class MainActivity extends AppCompatActivity
                 fragment = new projects();
                 break;
 
+            case R.id.nav_gallery:
+                fragment = new Home();
+                break;
+
             default:
-                fragment = new projects();
+                fragment = new Home();
                 break;
         }
 

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -33,6 +34,7 @@ public class projects extends Fragment   {
 
 
 
+
     //the hero list where we will store all the hero objects after parsing json
 
     private static final String JSON_URL = "https://simplifiedcoding.net/demos/view-flipper/heroes.php";
@@ -43,6 +45,8 @@ public class projects extends Fragment   {
     List<Hero> heroList;
 
 
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -51,10 +55,12 @@ public class projects extends Fragment   {
 
         View view = inflater.inflate(R.layout.projects_fragment, container, false);
         ListView testlistview = (ListView)view.findViewById(R.id.listView);
+
+        ProgressBar progressBar = view.findViewById(R.id.progressBar);
+
+
         heroList = new ArrayList<>();
-        loadHeroList(testlistview);
-
-
+        loadHeroList(testlistview, progressBar);
 
 
 
@@ -67,14 +73,14 @@ public class projects extends Fragment   {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
-        getActivity().setTitle("Home");
+        getActivity().setTitle("Projects");
 
     }
 
-    private void loadHeroList(final ListView listview1) {
+    private void loadHeroList(final ListView listview1, final ProgressBar progressBar) {
         //getting the progressbar
 
-
+        progressBar.setVisibility(View.VISIBLE);
         //creating a string request to send request to the url
         StringRequest stringRequest = new StringRequest(Request.Method.GET, JSON_URL,
                 new Response.Listener<String>() {
@@ -85,6 +91,7 @@ public class projects extends Fragment   {
                             //getting the whole json object from the response
                             JSONObject obj = new JSONObject(response);
 
+                            progressBar.setVisibility(View.INVISIBLE);
                             //we have the array named hero inside the object
                             //so here we are getting that json array
                             JSONArray heroArray = obj.getJSONArray("heroes");

@@ -1,201 +1,201 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-MERGED from [com.android.volley:volley:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/9f300c159d81473e698c2bee8c4e0cc1/AndroidManifest.xml:2:1-11:12
-MERGED from [com.synnapps:carouselview:0.1.4] /home/sacku/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/f5907f34b1f51739f1bf709a85830760/AndroidManifest.xml:2:1-16:12
-MERGED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sacku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a7885de81d8cd116c69ae45de99ad5c/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.volley:volley:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/42d9b01bd83ab63ba73307103d492c8d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/d9b8cf3dd034f074df95933228d3c8fa/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/korku02/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b7c71448ad20e89670c7763ce8316ca/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:3:5-48
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-41:12
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_PROFILE
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:5:5-71
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:5:5-71
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:5:22-68
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:5:22-68
 uses-permission#android.permission.INTERNET
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:8:5-39:19
-MERGED from [com.android.volley:volley:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/9f300c159d81473e698c2bee8c4e0cc1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/9f300c159d81473e698c2bee8c4e0cc1/AndroidManifest.xml:9:5-20
-MERGED from [com.synnapps:carouselview:0.1.4] /home/sacku/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/f5907f34b1f51739f1bf709a85830760/AndroidManifest.xml:11:5-14:19
-MERGED from [com.synnapps:carouselview:0.1.4] /home/sacku/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/f5907f34b1f51739f1bf709a85830760/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sacku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a7885de81d8cd116c69ae45de99ad5c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sacku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a7885de81d8cd116c69ae45de99ad5c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:24:5-28:19
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:8:5-39:19
+MERGED from [com.android.volley:volley:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/42d9b01bd83ab63ba73307103d492c8d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/42d9b01bd83ab63ba73307103d492c8d/AndroidManifest.xml:9:5-20
+MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/d9b8cf3dd034f074df95933228d3c8fa/AndroidManifest.xml:11:5-14:19
+MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/d9b8cf3dd034f074df95933228d3c8fa/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/korku02/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b7c71448ad20e89670c7763ce8316ca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/korku02/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b7c71448ad20e89670c7763ce8316ca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:14:9-40
 activity#in.ac.iitd.openhouse.openhouseapp.Splash
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:16:9-26:20
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:16:9-26:20
 	android:label
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:18:13-58
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:18:13-58
 	android:theme
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:19:13-56
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:17:13-35
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:17:13-35
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:24:27-74
 activity#in.ac.iitd.openhouse.openhouseapp.MainActivity
-ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:28:9-37:20
+ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:28:9-37:20
 	android:label
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:30:13-45
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:30:13-45
 	android:theme
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml:29:13-41
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml:29:13-41
 uses-sdk
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-MERGED from [com.android.volley:volley:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/9f300c159d81473e698c2bee8c4e0cc1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/9f300c159d81473e698c2bee8c4e0cc1/AndroidManifest.xml:7:5-43
-MERGED from [com.synnapps:carouselview:0.1.4] /home/sacku/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/f5907f34b1f51739f1bf709a85830760/AndroidManifest.xml:7:5-9:41
-MERGED from [com.synnapps:carouselview:0.1.4] /home/sacku/.gradle/caches/transforms-1/files-1.1/carouselview-0.1.4.aar/f5907f34b1f51739f1bf709a85830760/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sacku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a7885de81d8cd116c69ae45de99ad5c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sacku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a7885de81d8cd116c69ae45de99ad5c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/42d9b01bd83ab63ba73307103d492c8d/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/42d9b01bd83ab63ba73307103d492c8d/AndroidManifest.xml:7:5-43
+MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/d9b8cf3dd034f074df95933228d3c8fa/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/d9b8cf3dd034f074df95933228d3c8fa/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/korku02/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b7c71448ad20e89670c7763ce8316ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/korku02/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b7c71448ad20e89670c7763ce8316ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sacku/Desktop/work/openhouse/OpenHouse18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/korku02/Desktop/work/github/openhouse/openhouseapp/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b5067590b1959367b7dbb0da77d57878/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7b31e88bd362530703cc9aba96bb5c4e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ceb2c27c4e1b97dab646abdbf4ab72a9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8864a32ba579b342d1961c42621be315/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0df65907fc0cff49fef6e9f3b296545e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/ef874689b378fab598ee766cf5752d85/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7dd4d2a7e9e9447514e4cbc1aa004709/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c722209f10651e0a95fc7b95df49b56b/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a3330b6d47aed99cd84b95a6bed07894/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5410c30d9553db207b5968196429f357/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d5324370e22c75bb82dc318df2257b67/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5ed6f1840733dafca5d07a117d274cfe/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/913c77aee7fb3a8abd396b85324f3911/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f3461a58937d55119c6660da8c8497d3/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a0e802d4ed777f88ae1613bd7a806dc4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/07a56b584a34c0cf505dfd4f46c3aeef/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/17492d4fd4fdb30bc0ea82176275b06f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ce2a36cc5a2ca30679f54149ef4a5c82/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0e05779cef59d1550c9f595a3f69c5dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/84c5f383f5df66c78e3d2ac8aecb3aaa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4913bdbcc9e305c66a7ed7888784b634/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0903cf998f348d7e6cebdad781055d39/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/51d8b14030db7cd8efe3562de4452049/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sacku/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0c966c8df9e0682d399188b5e4cc0076/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/korku02/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/42fa948a045e55a04875e522c1b7f406/AndroidManifest.xml:26:13-58
