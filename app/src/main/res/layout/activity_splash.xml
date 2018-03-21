@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="in.ac.iitd.openhouse.openhouseapp.Splash">
-
-
+    tools:context="in.ac.iitd.openhouse.openhouseapp.Splash"
+    android:animateLayoutChanges="true">
 
     <include layout="@layout/content_splash" />
 

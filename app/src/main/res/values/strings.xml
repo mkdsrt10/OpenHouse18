@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">openhouseapp</string>
+    <string name="app_name">OpenHouse 2018</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_splash">Splash</string>
+    <string name="give_feedback">Click on the button below to scan the qr code and rate the project</string>
+    <string name="scan_qr">Scan Qr Code</string>
 </resources>

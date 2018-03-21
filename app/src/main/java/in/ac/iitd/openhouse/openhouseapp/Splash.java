@@ -8,13 +8,15 @@ import android.support.v7.app.AppCompatActivity;
 
 public class Splash extends AppCompatActivity {
 
-    private final int SPLASH_DISPLAY_LENGTH = 2000;
+    private final int SPLASH_DISPLAY_LENGTH = 500;
 
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
         setContentView(R.layout.activity_splash);
+
 
         new Handler().postDelayed(new Runnable() {
             public void run() {

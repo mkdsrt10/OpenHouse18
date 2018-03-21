@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="in.ac.iitd.openhouse.openhouseapp.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main"
+    android:animateLayoutChanges="true">
 
     <FrameLayout
         android:id="@+id/content_frame"

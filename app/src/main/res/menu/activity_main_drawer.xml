@@ -5,33 +5,50 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_project"
             android:title="Projects" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedule" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_teams"
+            android:icon="@drawable/ic_teams"
+            android:title="Teams" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_rate_projects"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="Rate Projects" />
+        <item
+            android:id="@+id/nav_attractions"
+            android:icon="@drawable/ic_attraction"
+            android:title="Attractions" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_disclaimer"
+            android:title="Disclaimer" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Connect With Us">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_website"
+                android:title="Website" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="Contact Us" />
         </menu>
     </item>
 
