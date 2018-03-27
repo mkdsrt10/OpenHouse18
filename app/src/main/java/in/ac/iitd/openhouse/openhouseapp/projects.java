@@ -30,7 +30,7 @@ import java.util.List;
  * Created by mayankdubey on 17/03/18.
  */
 
-public class projects extends Fragment   {
+public class projects extends Fragment  {
 
 
 
@@ -43,6 +43,7 @@ public class projects extends Fragment   {
 
     //the hero list where we will store all the hero objects after parsing json
     List<Hero> heroList1;
+
 
 
 
@@ -80,7 +81,10 @@ public class projects extends Fragment   {
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Projects");
 
+
     }
+
+
 
     private void loadHeroList(final ListView listview1, final ProgressBar progressBar) {
         //getting the progressbar

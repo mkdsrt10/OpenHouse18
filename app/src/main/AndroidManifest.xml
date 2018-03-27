@@ -13,6 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <provider
+            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
+            android:authorities="br.com.mauker.materialsearchview.searchhistorydatabase"
+            android:exported="false"
+            android:protectionLevel="signature"
+            android:syncable="true"/>
+
         <activity
             android:name=".Splash"
             android:label="@string/title_activity_splash"
