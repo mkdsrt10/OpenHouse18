@@ -40,8 +40,8 @@ public class Home extends Fragment   {
 
 
         banners.add(new DrawableBanner(R.drawable.f1));
-        banners.add(new DrawableBanner(R.drawable.f2));
-        banners.add(new DrawableBanner(R.drawable.f3));
+        banners.add(new DrawableBanner(R.drawable.f1));
+        banners.add(new DrawableBanner(R.drawable.f1));
         bannerSlider.setBanners(banners);
 
         bannerSlider.setOnBannerClickListener(new OnBannerClickListener() {

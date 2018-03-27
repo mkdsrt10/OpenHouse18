@@ -102,9 +102,6 @@ public class MainActivity extends AppCompatActivity
                 fragment = new Home();
                 break;
 
-            case R.id.nav_teams:
-                fragment = new Home();
-                break;
 
             case R.id.nav_attractions:
                 fragment = new Home();

@@ -5,52 +5,24 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.0.1"
-    timestamp="1522153078278"
+    timestamp="1522154769128"
     token="-3656087234554911951"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1025" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="81" />
+        duration="0" />
     <task
         name="verifier"
-        duration="32" />
+        duration="0" />
 
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
@@ -99,25 +71,19 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1522153078278"
+        timestamp="1522154232724"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -128,6 +94,23 @@
         <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1522154507603"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1522154769128"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
