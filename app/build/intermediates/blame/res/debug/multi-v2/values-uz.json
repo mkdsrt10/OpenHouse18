@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/korku02/Desktop/work/github/openhouse/OpenHouse18/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
-                    "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/values-uz/values-uz.xml",
+                    "source": "/Users/korku02/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a30917e00b675122d034cd110114aaa9/res/values-uz/values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

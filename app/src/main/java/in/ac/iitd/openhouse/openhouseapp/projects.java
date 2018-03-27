@@ -37,12 +37,13 @@ public class projects extends Fragment   {
 
     //the hero list where we will store all the hero objects after parsing json
 
-    private static final String JSON_URL = "https://simplifiedcoding.net/demos/view-flipper/heroes.php";
+    private static final String JSON_URL = "http://openhouse.iitd.ac.in/php/getsubmission.php";
     //listview object
-    ListView listView;
+
 
     //the hero list where we will store all the hero objects after parsing json
-    List<Hero> heroList;
+    List<Hero> heroList1;
+
 
 
 
@@ -54,12 +55,16 @@ public class projects extends Fragment   {
         //change R.layout.yourlayoutfilename for each of your fragments
 
         View view = inflater.inflate(R.layout.projects_fragment, container, false);
-        ListView testlistview = (ListView)view.findViewById(R.id.listView);
+        ListView testlistview = view.findViewById(R.id.listView);
+
+
+
 
         ProgressBar progressBar = view.findViewById(R.id.progressBar);
 
 
-        heroList = new ArrayList<>();
+        heroList1 = new ArrayList<>();
+
         loadHeroList(testlistview, progressBar);
 
 
@@ -89,30 +94,48 @@ public class projects extends Fragment   {
 
                         try {
                             //getting the whole json object from the response
-                            JSONObject obj = new JSONObject(response);
+                            JSONArray resArray = new JSONArray(response);
 
                             progressBar.setVisibility(View.INVISIBLE);
-                            //we have the array named hero inside the object
-                            //so here we are getting that json array
-                            JSONArray heroArray = obj.getJSONArray("heroes");
 
+
+
+//
                             //now looping through all the elements of the json array
-                            for (int i = 0; i < heroArray.length(); i++) {
+                            for (int i = 0; i < resArray.length(); i++) {
                                 //getting the json object of the particular index inside the array
-                                JSONObject heroObject = heroArray.getJSONObject(i);
+                                JSONObject heroObject = resArray.getJSONObject(i);
 
                                 //creating a hero object and giving them the values from json object
-                                Hero hero = new Hero(heroObject.getString("name"), heroObject.getString("imageurl"));
+                                if(i>0){
+                                    if(!heroObject.getString("title").equals(resArray.getJSONObject(i-1).getString("title"))){
+                                        Hero hero1 = new Hero(heroObject.getString("name"), heroObject.getString("title"));
+                                        //adding the hero to herolist
+                                        heroList1.add(hero1);
+                                    }
+                                }
+                                else{
+                                    Hero hero1 = new Hero(heroObject.getString("name"), heroObject.getString("title"));
+                                    //adding the hero to herolist
+                                    heroList1.add(hero1);
+                                }
 
-                                //adding the hero to herolist
-                                heroList.add(hero);
+
+
+
+
+
+
                             }
 
+
                             //creating custom adapter object
-                            ListViewAdapter adapter = new ListViewAdapter(heroList, getActivity());
+                            ListViewAdapter adapter1 = new ListViewAdapter(heroList1, getActivity());
+
 
                             //adding the adapter to listview
-                            listview1.setAdapter(adapter);
+                            listview1.setAdapter(adapter1);
+
 
                         } catch (JSONException e) {
                             e.printStackTrace();
