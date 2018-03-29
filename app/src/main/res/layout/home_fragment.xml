@@ -6,17 +6,116 @@
     android:animateLayoutChanges="true">
 
 
-    <ss.com.bannerslider.views.BannerSlider
-        android:id="@+id/banner_slider1"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:interval="5000"
-        app:loopSlides="true"
-        app:defaultBanner="1"
-        app:animateIndicators="true"
-        app:indicatorSize="12dp"
-        />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/social_media_icon"
+        android:layout_alignParentStart="true"
+        android:paddingVertical="15dp"
+        android:id="@+id/nav_buttons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ss.com.bannerslider.views.BannerSlider
+                android:id="@+id/banner_slider1"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="2"
+                app:animateIndicators="true"
+                app:defaultBanner="1"
+                app:indicatorSize="12dp"
+                app:interval="5000"
+                app:loopSlides="true" />
+
+            <Button
+                android:id="@+id/nav_projects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/roboto"
+                android:text="See Projects"
+                android:textColor="#F2F2F2"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="30dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/roboto"
+                android:text="Rate Project"
+                android:autoSizeMaxTextSize="30dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="#F2F2F2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/roboto"
+                android:text="Schedule"
+                android:autoSizeMaxTextSize="30dp"
+                android:autoSizeTextType="uniform"
+                android:textColor="#F2F2F2"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/social_media_icon"
+        android:paddingBottom="7dp">
+
+        <ImageButton
+            android:id="@+id/instashare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/instagram"
+            android:paddingHorizontal="15dp"/>
+
+        <ImageButton
+            android:id="@+id/fbshare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/facebook"
+            android:paddingHorizontal="15dp"/>
+
+
+        <ImageButton
+            android:id="@+id/twittershare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/twitter"
+            android:paddingHorizontal="15dp"/>
+
+    </LinearLayout>
 
 
 </RelativeLayout>
