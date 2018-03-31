@@ -36,11 +36,11 @@
     <item android:title="Team">
         <menu>
             <item
-                android:id="@+id/faculty"
+                android:id="@+id/nav_faculty"
                 android:icon="@drawable/ic_website"
                 android:title="Faculty Team" />
             <item
-                android:id="@+id/student"
+                android:id="@+id/nav_student"
                 android:icon="@drawable/ic_contact_us"
                 android:title="Student Team" />
         </menu>

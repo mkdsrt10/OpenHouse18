@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\5c9264d3089d2bd7ef4a3c4274270f49\AndroidManifest.xml:2:1-11:12
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\bannerslider-1.8.0.aar\fa51210fbef0a35a404141da1e664c7b\AndroidManifest.xml:2:1-16:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.4.0.aar\e581e40f19f26b28d224e8dcf2d390fb\AndroidManifest.xml:17:1-55:12
@@ -15,27 +15,27 @@ MERGED from [com.android.support:transition:26.1.0] C:\Users\medha\.gradle\cache
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ad09250ab882fcdbe33f9043aecaeb68\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4725bf94b13be3ea07f55c5bd18c475\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\793cfc6bf53eb6957f0ee9a11b73a2f5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\73e7d904e21b305b3ced7617399bb99f\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0042cfc173e684c289da029e54aced22\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:2:11-69
@@ -48,7 +48,7 @@ ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:8:5-50:19
+ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:8:5-44:19
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\5c9264d3089d2bd7ef4a3c4274270f49\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\5c9264d3089d2bd7ef4a3c4274270f49\AndroidManifest.xml:9:5-20
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\bannerslider-1.8.0.aar\fa51210fbef0a35a404141da1e664c7b\AndroidManifest.xml:11:5-14:19
@@ -71,12 +71,12 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4725bf94b13be3ea07f55c5bd18c475\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\793cfc6bf53eb6957f0ee9a11b73a2f5\AndroidManifest.xml:25:5-29:19
@@ -92,7 +92,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\medha\.gradle\caches
 	android:roundIcon
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:10:9-38
 	android:allowBackup
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
@@ -112,7 +112,7 @@ ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xm
 activity#in.ac.iitd.openhouse.openhouseapp.Splash
 ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:23:9-33:20
 	android:label
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:25:13-58
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:25:13-44
 	android:theme
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:26:13-56
 	android:name
@@ -128,19 +128,17 @@ ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:31:27-74
 activity#in.ac.iitd.openhouse.openhouseapp.MainActivity
-ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:35:9-44:20
-	android:label
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:37:13-45
+ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:35:9-38:20
 	android:theme
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:38:13-56
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
 		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:36:13-41
 meta-data#preloaded_fonts
-ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:46:9-48:57
+ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:40:9-42:57
 	android:resource
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:48:13-54
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:42:13-54
 	android:name
-		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:47:13-43
+		ADDED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml:41:13-43
 uses-sdk
 INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Documents\Github Repos\OpenHouse18\app\src\main\AndroidManifest.xml
@@ -167,12 +165,12 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4725bf94b13be3ea07f55c5bd18c475\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\793cfc6bf53eb6957f0ee9a11b73a2f5\AndroidManifest.xml:21:5-23:61
@@ -259,12 +257,12 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4725bf94b13be3ea07f55c5bd18c475\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0113b058b8ca8ac09bee0c57500e45ce\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\eea37df3134ab3ecad193e580404aa9f\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a8ba321a3cddba5223d5d1014251d28c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7e510af502c08c2af00d920627033334\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\965880b93f9549731389c3381c6f9d14\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\medha\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\793cfc6bf53eb6957f0ee9a11b73a2f5\AndroidManifest.xml:26:9-28:38

@@ -7,7 +7,8 @@
     tools:context="in.ac.iitd.openhouse.openhouseapp.Splash"
     android:animateLayoutChanges="true">
 
-    <include layout="@layout/content_splash" />
+    <include
+        layout="@layout/content_splash" />
 
 
 

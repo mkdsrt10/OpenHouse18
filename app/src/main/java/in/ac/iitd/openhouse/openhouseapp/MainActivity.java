@@ -107,11 +107,19 @@ public class MainActivity extends AppCompatActivity
 
 
             case R.id.nav_attractions:
-                fragment = new Home();
+                fragment = new attractions();
+                break;
+
+            case R.id.nav_faculty:
+                fragment = new FacultyTeam();
+                break;
+
+            case R.id.nav_student:
+                fragment = new StudentTeam();
                 break;
 
             case R.id.nav_faq:
-                fragment = new Home();
+                fragment = new FAQ();
                 break;
 
             case R.id.nav_rate_projects:
@@ -119,7 +127,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_disclaimer:
-                fragment = new Home();
+                fragment = new disclaimer();
                 break;
 
             case R.id.nav_website:
@@ -127,7 +135,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_contact_us:
-                fragment = new Home();
+                fragment = new contact();
                 break;
 
             default:

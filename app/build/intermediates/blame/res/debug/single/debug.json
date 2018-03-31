@@ -1188,6 +1188,10 @@
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c892f0ff09edbd0afd54a487fc3411d1\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\layout_faq.xml.flat",
+        "source": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\src\\main\\res\\layout\\faq.xml"
+    },
+    {
         "merged": "D:\\Users\\mayankdubey\\Desktop\\work\\github\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "D:\\Users\\mayankdubey\\Desktop\\work\\github\\OpenHouse18\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
@@ -2320,6 +2324,10 @@
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\73e7d904e21b305b3ced7617399bb99f\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
+        "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_us.xml.flat",
+        "source": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\src\\main\\res\\layout\\contact_us.xml"
+    },
+    {
         "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c892f0ff09edbd0afd54a487fc3411d1\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -2546,6 +2554,10 @@
     {
         "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\73e7d904e21b305b3ced7617399bb99f\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\layout_disclaimer.xml.flat",
+        "source": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\src\\main\\res\\layout\\disclaimer.xml"
     },
     {
         "merged": "D:\\Users\\mayankdubey\\Desktop\\work\\github\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",

@@ -13,23 +13,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:paddingTop="10dp"
-        android:layout_alignTop="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="131dp"
+        android:layout_marginEnd="0dp"
         android:layout_weight="1"
+        android:paddingTop="10dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Openhouse 2018"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
         android:gravity="center"
-        android:layout_marginTop="60dp"
+        android:text="Open House IITD"
+        android:textColor="@color/colorSteelGrey"
         android:textSize="40dp"
-        android:textStyle="bold"
-        android:id="@+id/textView2" />
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
