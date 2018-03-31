@@ -44,12 +44,6 @@ public class Home extends Fragment   {
         banners.add(new DrawableBanner(R.drawable.f1));
         bannerSlider.setBanners(banners);
 
-        bannerSlider.setOnBannerClickListener(new OnBannerClickListener() {
-            @Override
-            public void onClick(int position) {
-                Toast.makeText(getActivity(), "Banner with position " + String.valueOf(position) + " clicked!", Toast.LENGTH_SHORT).show();
-            }
-        });
 
 
         return view;
