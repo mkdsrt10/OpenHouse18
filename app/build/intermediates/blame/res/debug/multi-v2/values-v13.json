@@ -4,22 +4,7 @@
             "outputFile": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c892f0ff09edbd0afd54a487fc3411d1\\res\\values-v13\\values-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Users\\mayankdubey\\Desktop\\work\\github\\OpenHouse18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
-            "map": [
-                {
-                    "source": "D:\\Users\\mayankdubey\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\12635df626ece25a263765a1a12dc4d2\\res\\values-v13\\values-v13.xml",
+                    "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1137c88d7b036c890932a25ae5146802\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

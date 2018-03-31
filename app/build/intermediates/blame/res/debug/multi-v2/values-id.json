@@ -4,22 +4,7 @@
             "outputFile": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\e581e40f19f26b28d224e8dcf2d390fb\\res\\values-id\\values-id.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,114,161,293",
-                        "endColumns": "58,46,131,108",
-                        "endOffsets": "109,156,288,397"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Users\\mayankdubey\\Desktop\\work\\github\\OpenHouse18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
-            "map": [
-                {
-                    "source": "D:\\Users\\mayankdubey\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\9e69700aab62425b8644e6c9aa48bc73\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\3dc41ef5df64a2e3d2e9b22952754267\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
