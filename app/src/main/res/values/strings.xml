@@ -8,4 +8,7 @@
     <string name="title_activity_splash">Splash</string>
     <string name="give_feedback">Click on the button below to scan the qr code and rate the project</string>
     <string name="scan_qr">Scan Qr Code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
