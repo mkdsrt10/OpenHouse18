@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -30,8 +31,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                displaySelectedScreen(R.id.nav_contact_us);
             }
         });
 
@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
     }
 
     @Override
@@ -83,7 +85,7 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    private void displaySelectedScreen(int itemId) {
+    public void displaySelectedScreen(int itemId) {
 
         //creating fragment object
         Fragment fragment = null;
@@ -99,7 +101,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_schedule:
-                fragment = new Schedule();
+                fragment = new schedule();
                 break;
 
 
@@ -116,7 +118,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_disclaimer:
-                fragment = new Disclaimer();
+                fragment = new disclaimer();
                 break;
 
             case R.id.nav_website:

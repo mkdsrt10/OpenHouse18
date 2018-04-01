@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OpenHouse 2018</string>
+    <string name="app_name">Open House IITD</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,5 +10,9 @@
     <string name="scan_qr">Scan Qr Code</string>
     <string name="disclaimer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="faq">For the thirteenth consecutive year Indian Institute of Technology (IIT-Delhi) is all set to exhibit an extensive collection of innovative research and product development projects at its annual open house, Open House 2018. Scheduled on Saturday April 21st in the premises of IIT Delhi, Open House 2018 will be a one - day event dedicated to provide an insight into path-breaking research work, student projects and the numerous advanced facilities and laboratories available in IIT Delhi. Continuing the tradition of last ten years, this year too Open House promises to be a real treat to the eyes of the connoisseurs by presenting finest of the projects to technology enthusiasts, students and colleagues from other technical Institutes, school children, industries and general public. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

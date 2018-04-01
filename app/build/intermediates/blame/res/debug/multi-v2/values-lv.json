@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/values-lv/values-lv.xml",
+                    "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1137c88d7b036c890932a25ae5146802\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -7,11 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by mayankdubey on 01/04/18.
- */
 
-public class Disclaimer extends Fragment {
+public class disclaimer extends Fragment {
 
     @Nullable
     @Override

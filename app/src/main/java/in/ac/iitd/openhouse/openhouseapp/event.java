@@ -1,24 +1,20 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
-/**
- * Created  by mayankdubey on 01/04/18.
- */
+
 
 public class event {
-    String name, time;
+    String name, Stime,Etime;
 
-    public event(String time, String name) {
+    public event(String Stime, String Etime, String name) {
         this.name = name;
-        this.time = time.substring(11, 16);
+        this.Stime = Stime.substring( 11 , 16);
+        this.Etime = Etime.substring(11,16);
 
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name;}
 
-    public String getTime() {
-        return time;
+    public String getStime() { return Stime; }
 
-    }
+    public String getETime() { return Etime; }
 }

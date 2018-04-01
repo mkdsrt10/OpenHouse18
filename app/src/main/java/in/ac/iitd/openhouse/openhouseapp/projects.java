@@ -26,9 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * Created by mayankdubey on 17/03/18.
- */
 
 public class projects extends Fragment  {
 

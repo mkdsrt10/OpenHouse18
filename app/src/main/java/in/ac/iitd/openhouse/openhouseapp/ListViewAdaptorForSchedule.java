@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by mayankdubey on 01/04/18.
- */
 
 public class ListViewAdaptorForSchedule extends ArrayAdapter<event> {
 
@@ -47,7 +44,7 @@ public class ListViewAdaptorForSchedule extends ArrayAdapter<event> {
 
         //setting hero values to textviews
         eventName.setText(event.getName());
-        eventTime.setText(event.getTime());
+        eventTime.setText(event.Stime + "-" + event.Etime );
 
         //returning the listitem
         return listViewItem;

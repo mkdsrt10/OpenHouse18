@@ -24,11 +24,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mayankdubey on 30/03/18.
- */
 
-public class Schedule extends Fragment {
+public class schedule extends Fragment {
 
 
 
@@ -110,9 +107,8 @@ public class Schedule extends Fragment {
                                 JSONObject eventObject = resArray.getJSONObject(i);
 
                                 //creating a event object and giving them the values from json object
-                                if(i>0){
-                                    if(!eventObject.getString("event").equals(resArray.getJSONObject(i-1).getString("event"))){
-                                        event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
+                                if(i>=0){
+                                        event event1 = new event(eventObject.getString("starttime"),eventObject.getString("endtime"),eventObject.getString("event"));
 
                                         if(eventObject.getString("type").equals("programs")) {
                                             //adding the event to eventlist
@@ -123,21 +119,8 @@ public class Schedule extends Fragment {
                                             //adding the event to eventlist
                                             eventList1.add(event1);
                                         }
-                                    }
-                                }
-                                else{
-                                    event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
-                                    if(eventObject.getString("type").equals("programs")) {
-                                        //adding the event to eventlist
-                                        eventList2.add(event1);
-                                    }
 
-                                    else if (eventObject.getString("type").equals("special events")){
-                                        //adding the event to eventlist
-                                        eventList1.add(event1);
-                                    }
-                                }
-                            }
+                            }}
                             //creating custom adapter object
                             ListViewAdaptorForSchedule adapter1 = new ListViewAdaptorForSchedule(eventList1, getActivity());
 
