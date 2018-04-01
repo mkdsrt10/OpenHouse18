@@ -1,45 +1,17 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
-
 
 /**
- * Created by medhakant on 31/03/18.
+ * Created by mayankdubey on 01/04/18.
  */
 
-public class disclaimer extends Fragment  {
-
-
-
-
-
-
-
-
-
+public class Disclaimer extends Fragment {
 
     @Nullable
     @Override
@@ -49,11 +21,9 @@ public class disclaimer extends Fragment  {
 
         View view = inflater.inflate(R.layout.disclaimer, container, false);
 
-
         return view;
-
-
     }
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -61,4 +31,5 @@ public class disclaimer extends Fragment  {
         getActivity().setTitle("Disclaimer");
 
 
-    }}
+    }
+}

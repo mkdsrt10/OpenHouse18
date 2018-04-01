@@ -1,6 +1,5 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -25,24 +24,23 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
- * Created by medhakant on 31/03/18.
+ * Created by mayankdubey on 30/03/18.
  */
 
-public class schedule extends Fragment  {
+public class Schedule extends Fragment {
 
 
 
 
     //the hero list where we will store all the hero objects after parsing json
 
-    private static final String JSON_URL = "http://openhouse.iitd.ac.in/php/getsubmission.php";
+    private static final String JSON_URL = "http://openhouse.iitd.ac.in/php/schedule.php";
     //listview object
 
 
     //the hero list where we will store all the hero objects after parsing json
-    List<Hero> heroList2;
+    List<event> eventList1, eventList2;
 
 
 
@@ -56,7 +54,9 @@ public class schedule extends Fragment  {
         //change R.layout.yourlayoutfilename for each of your fragments
 
         View view = inflater.inflate(R.layout.schedule_fragment, container, false);
-        ListView testlistview = view.findViewById(R.id.listViewSchedule);
+        ListView testlistview1 = view.findViewById(R.id.listView1);
+        ListView testlistview2 = view.findViewById(R.id.listView2);
+
 
 
 
@@ -64,9 +64,11 @@ public class schedule extends Fragment  {
         ProgressBar progressBar = view.findViewById(R.id.progressBar);
 
 
-        heroList2 = new ArrayList<>();
+        eventList1 = new ArrayList<>();
 
-        loadHeroList(testlistview, progressBar);
+        eventList2 = new ArrayList<>();
+
+        loadeventList(testlistview1, testlistview2, progressBar);
 
 
 
@@ -86,7 +88,7 @@ public class schedule extends Fragment  {
 
 
 
-    private void loadHeroList(final ListView listview2, final ProgressBar progressBar) {
+    private void loadeventList(final ListView listview1, final ListView listview2, final ProgressBar progressBar) {
         //getting the progressbar
 
         progressBar.setVisibility(View.VISIBLE);
@@ -102,43 +104,48 @@ public class schedule extends Fragment  {
 
                             progressBar.setVisibility(View.INVISIBLE);
 
-
-
-//
                             //now looping through all the elements of the json array
                             for (int i = 0; i < resArray.length(); i++) {
                                 //getting the json object of the particular index inside the array
-                                JSONObject heroObject = resArray.getJSONObject(i);
+                                JSONObject eventObject = resArray.getJSONObject(i);
 
-                                //creating a hero object and giving them the values from json object
+                                //creating a event object and giving them the values from json object
                                 if(i>0){
-                                    if(!heroObject.getString("title").equals(resArray.getJSONObject(i-1).getString("title"))){
-                                        Hero hero1 = new Hero(heroObject.getString("created"), heroObject.getString("title"));
-                                        //adding the hero to herolist
-                                        heroList2.add(hero1);
+                                    if(!eventObject.getString("event").equals(resArray.getJSONObject(i-1).getString("event"))){
+                                        event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
+
+                                        if(eventObject.getString("type").equals("programs")) {
+                                            //adding the event to eventlist
+                                            eventList2.add(event1);
+                                        }
+
+                                        else if (eventObject.getString("type").equals("special events")){
+                                            //adding the event to eventlist
+                                            eventList1.add(event1);
+                                        }
                                     }
                                 }
                                 else{
-                                    Hero hero1 = new Hero(heroObject.getString("created"), heroObject.getString("title"));
-                                    //adding the hero to herolist
-                                    heroList2.add(hero1);
+                                    event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
+                                    if(eventObject.getString("type").equals("programs")) {
+                                        //adding the event to eventlist
+                                        eventList2.add(event1);
+                                    }
+
+                                    else if (eventObject.getString("type").equals("special events")){
+                                        //adding the event to eventlist
+                                        eventList1.add(event1);
+                                    }
                                 }
-
-
-
-
-
-
-
                             }
-
-
                             //creating custom adapter object
-                            ListViewAdapter adapter1 = new ListViewAdapter(heroList2, getActivity());
+                            ListViewAdaptorForSchedule adapter1 = new ListViewAdaptorForSchedule(eventList1, getActivity());
 
+                            ListViewAdaptorForSchedule adapter2 = new ListViewAdaptorForSchedule(eventList2, getActivity());
 
                             //adding the adapter to listview
-                            listview2.setAdapter(adapter1);
+                            listview1.setAdapter(adapter1);
+                            listview2.setAdapter(adapter2);
 
 
                         } catch (JSONException e) {

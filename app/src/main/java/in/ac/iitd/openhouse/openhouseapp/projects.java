@@ -74,6 +74,7 @@ public class projects extends Fragment  {
 
 
     }
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -101,9 +102,6 @@ public class projects extends Fragment  {
 
                             progressBar.setVisibility(View.INVISIBLE);
 
-
-
-//
                             //now looping through all the elements of the json array
                             for (int i = 0; i < resArray.length(); i++) {
                                 //getting the json object of the particular index inside the array
@@ -122,16 +120,7 @@ public class projects extends Fragment  {
                                     //adding the hero to herolist
                                     heroList1.add(hero1);
                                 }
-
-
-
-
-
-
-
                             }
-
-
                             //creating custom adapter object
                             ListViewAdapter adapter1 = new ListViewAdapter(heroList1, getActivity());
 

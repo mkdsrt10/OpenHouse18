@@ -36,11 +36,11 @@
     <item android:title="Team">
         <menu>
             <item
-                android:id="@+id/nav_faculty"
+                android:id="@+id/faculty"
                 android:icon="@drawable/ic_website"
                 android:title="Faculty Team" />
             <item
-                android:id="@+id/nav_student"
+                android:id="@+id/student"
                 android:icon="@drawable/ic_contact_us"
                 android:title="Student Team" />
         </menu>
@@ -58,9 +58,9 @@
                 android:title="Contact Us" />
 
             <item
-                android:id="@+id/nav_faq"
+                android:id="@+id/nav_about_us"
                 android:icon="@drawable/ic_faq"
-                android:title="FAQ" />
+                android:title="About Us" />
 
             <item
                 android:id="@+id/nav_disclaimer"

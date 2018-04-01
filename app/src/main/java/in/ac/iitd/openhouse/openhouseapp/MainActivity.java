@@ -1,9 +1,6 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -33,7 +30,8 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            displaySelectedScreen(R.id.nav_contact_us);
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
 
@@ -101,24 +99,16 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_schedule:
-                fragment = new schedule();
+                fragment = new Schedule();
                 break;
 
 
             case R.id.nav_attractions:
-                fragment = new attractions();
+                fragment = new Home();
                 break;
 
-            case R.id.nav_faculty:
-                fragment = new FacultyTeam();
-                break;
-
-            case R.id.nav_student:
-                fragment = new StudentTeam();
-                break;
-
-            case R.id.nav_faq:
-                fragment = new FAQ();
+            case R.id.nav_about_us:
+                fragment = new AboutUs();
                 break;
 
             case R.id.nav_rate_projects:
@@ -126,7 +116,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_disclaimer:
-                fragment = new disclaimer();
+                fragment = new Disclaimer();
                 break;
 
             case R.id.nav_website:
@@ -134,7 +124,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_contact_us:
-                fragment = new contact();
+                fragment = new Home();
                 break;
 
             default:
