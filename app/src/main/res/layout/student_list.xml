@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/cordi_name_Layout">
+
+        <TextView
+            android:id="@+id/nameOfCordi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cordi_name_Layout"
+        android:id="@+id/cordi_email_Layout">
+
+        <TextView
+            android:id="@+id/emailOfCordi"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:textAlignment="center"
+            android:textColor="#828282"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cordi_email_Layout"
+        android:id="@+id/cordi_phone_Layout">
+
+        <TextView
+            android:id="@+id/phoneOfCordi"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto"
+            android:textAlignment="center"
+            android:textColor="#828282"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cordi_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cordi_name_Layout"
+        android:layout_toRightOf="@id/cordi_phone_Layout" />
+
+
+</RelativeLayout>

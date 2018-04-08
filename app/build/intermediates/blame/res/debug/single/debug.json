@@ -448,6 +448,10 @@
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1137c88d7b036c890932a25ae5146802\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\layout_student_list.xml.flat",
+        "source": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\src\\main\\res\\layout\\student_list.xml"
+    },
+    {
         "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1137c88d7b036c890932a25ae5146802\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1886,6 +1890,10 @@
     {
         "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\medha\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1137c88d7b036c890932a25ae5146802\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\layout_student_fragment.xml.flat",
+        "source": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\src\\main\\res\\layout\\student_fragment.xml"
     },
     {
         "merged": "D:\\Documents\\Github Repos\\OpenHouse18\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",

@@ -126,8 +126,18 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_contact_us:
-                fragment = new Home();
+                fragment = new contact_us();
                 break;
+
+            case R.id.student:
+                fragment = new team_student();
+                break;
+
+            case R.id.faculty:
+                fragment = new team_faculty();
+                break;
+
+
 
             default:
                 fragment = new Home();

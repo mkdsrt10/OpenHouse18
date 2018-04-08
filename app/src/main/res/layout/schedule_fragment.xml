@@ -36,7 +36,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="225dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/date_of_program"
             android:id="@+id/special_events">
 
@@ -77,7 +77,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="225dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/special_events">
 
             <LinearLayout
