@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -125,6 +126,10 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_contact_us:
                 fragment = new Home();
+                break;
+
+            case R.id.faculty:
+                fragment = new FacultyTeam();
                 break;
 
             default:

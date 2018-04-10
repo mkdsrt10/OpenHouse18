@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/chairpersonLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Chairperson"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chairpersonLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/viceChairpersonLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Vice-Chairperson"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viceChairpersonLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/InvitationAndRegistrationLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Invitation and Registration"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/InvitationAndRegistrationLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/Infrastructure">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Infrastructure"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Infrastructure"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/FoodAndCatering">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Food and Catering"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/FoodAndCatering"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/MediaAndPublicity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Media and Publicity"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/FoodAndCatering"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/WebAndApp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Web and App"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/WebAndApp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/PrintAndDesign">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Print and Design"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PrintAndDesign"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/HospitalityAndReception">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Hospitality and Reception"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/HospitalityAndReception"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/InaugurationAndAwards">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorPrimary"
+                    android:text="Inauguration and Awards"
+                    android:textColor="#F2F2F2"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <ListView
+                    android:id="@+id/listView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</android.support.constraint.ConstraintLayout>

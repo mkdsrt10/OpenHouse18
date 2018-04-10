@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="105dp"
+            android:paddingLeft="7dp"
+            android:paddingVertical="10dp"
+            android:src="@drawable/f1"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/profile_image"
+            android:orientation="vertical"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/facultyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="40dp"
+                android:paddingTop="7dp"
+                android:text="facultyName"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:autoSizeMaxTextSize="30dp"
+                android:autoSizeTextType="uniform"/>
+
+            <TextView
+                android:id="@+id/facultyEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/facultyName"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="40dp"
+                android:text="facultyEmail"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#828282"
+                android:textSize="18sp"
+                android:autoSizeMaxTextSize="20dp"
+                android:autoSizeTextType="uniform"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

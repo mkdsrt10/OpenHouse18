@@ -7,6 +7,7 @@ INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/An
 MERGED from [com.android.volley:volley:1.0.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/24d7be78bf016793ecfe7e84dc595dd6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/AndroidManifest.xml:2:1-16:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:17:1-55:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:2:1-11:12
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:design:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/AndroidManifest.xml:17:1-31:12
@@ -55,6 +56,8 @@ MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/AndroidManifest.xml:11:5-14:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:45:5-53:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:45:5-53:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:9:5-20
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:23:5-25:38
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:23:5-25:38
 MERGED from [com.android.support:design:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/AndroidManifest.xml:25:5-29:19
@@ -151,6 +154,8 @@ MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/AndroidManifest.xml:7:5-9:41
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:19:5-43
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:19:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:5:5-7:41
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:19:5-21:41
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:19:5-21:41
 MERGED from [com.android.support:design:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/AndroidManifest.xml:21:5-23:62

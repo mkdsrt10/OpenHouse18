@@ -29,7 +29,7 @@ import ss.com.bannerslider.views.BannerSlider;
  * Created by mayankdubey on 17/03/18.
  */
 
-public class Home extends Fragment implements View.OnClickListener  {
+public class Home extends Fragment   {
 
 
 
@@ -62,6 +62,15 @@ public class Home extends Fragment implements View.OnClickListener  {
             }
         });
 
+        Button seeProject = (Button) getActivity().findViewById(R.id.nav_projects);
+        Button rateProject = (Button) getActivity().findViewById(R.id.nav_rate_projects);
+        Button schedule = (Button) getActivity().findViewById(R.id.nav_schedule);
+
+//        seeProject.setOnClickListener(this);
+//        rateProject.setOnClickListener(this);
+//        schedule.setOnClickListener(this);
+
+
 
         return view;
 
@@ -74,42 +83,22 @@ public class Home extends Fragment implements View.OnClickListener  {
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Home");
 
-        Button seeProject = (Button) getActivity().findViewById(R.id.nav_projects);
-        Button rateProject = (Button) getActivity().findViewById(R.id.nav_rate_projects);
-        Button schedule = (Button) getActivity().findViewById(R.id.nav_schedule);
-
-
     }
 
-    public void onClick(View v) {
-
-        seeProject.setOnClickListener(this);
-        rateProject.setOnClickListener(this);
-        schedule.setOnClickListener(this);
-
-        //create an Intent object
-        Intent intent = null;
-
-        if(v == seeProject){
-            intent = new Intent(context, projects.class);
-            System.out.println("mayb");
-        }
-
-        else if(v == rateProject){
-            intent = new Intent(context, Home.class);
-        }
-        else if(v == schedule){
-            intent = new Intent(context, Home.class);
-        }
-
-        if(intent != null){
-            startActivity(intent);
-        }
-
-
-    }
-
-
+//    public void onClick(View v) {
+//
+//        //creating fragment object
+//        Fragment fragment = null;
+//
+//
+//        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//        ft.replace(R.id.content_frame, fragment);
+//        ft.commit();
+//
+//
+//    }
+//
+//
 
 
 
