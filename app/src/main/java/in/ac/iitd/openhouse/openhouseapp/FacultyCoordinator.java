@@ -61,12 +61,12 @@ public class FacultyCoordinator {
 //        return null;
 //    }
 
-//    public  getImage() {
-
-        // Loader image - will be shown before loading image
+//    public Bitmap getImage() {
+//
+////         Loader image - will be shown before loading image
 //        int loader = R.drawable.f1;
-
-//    }
+//
+//
 
 //        try {
 //            File f=new File(context.getFilesDir(), filename);;
@@ -85,7 +85,7 @@ public class FacultyCoordinator {
 //        } catch (Exception ex){
 //            ex.printStackTrace();
 //            return null;
-//        }
+        }
 //
 //    }
-}
+

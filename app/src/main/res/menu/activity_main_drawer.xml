@@ -27,6 +27,10 @@
             android:id="@+id/nav_attractions"
             android:icon="@drawable/ic_attraction"
             android:title="Attractions" />
+        <item
+            android:id="@+id/nav_navigate"
+            android:icon="@drawable/ic_attraction"
+            android:title="Navigate" />
 
 
     </group>

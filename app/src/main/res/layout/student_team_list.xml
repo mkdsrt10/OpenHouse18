@@ -18,7 +18,7 @@
             android:layout_height="105dp"
             android:paddingLeft="7dp"
             android:paddingVertical="10dp"
-            android:src="@drawable/f1"
+            android:src="@drawable/OH1"
             android:layout_weight="1"/>
 
         <LinearLayout

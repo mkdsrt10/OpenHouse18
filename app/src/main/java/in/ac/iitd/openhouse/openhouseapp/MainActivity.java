@@ -132,6 +132,11 @@ public class MainActivity extends AppCompatActivity
                 fragment = new FacultyTeam();
                 break;
 
+            case R.id.student:
+                fragment = new StudentTeam();
+                break;
+
+
             default:
                 fragment = new Home();
                 break;

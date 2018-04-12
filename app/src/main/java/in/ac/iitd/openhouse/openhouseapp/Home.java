@@ -50,9 +50,11 @@ public class Home extends Fragment   {
         BannerSlider bannerSlider =  view.findViewById(R.id.banner_slider1);
 
 
-        banners.add(new DrawableBanner(R.drawable.f1));
-        banners.add(new DrawableBanner(R.drawable.f1));
-        banners.add(new DrawableBanner(R.drawable.f1));
+        banners.add(new DrawableBanner(R.drawable.OH1));
+        banners.add(new DrawableBanner(R.drawable.OH2));
+        banners.add(new DrawableBanner(R.drawable.OH3));
+        banners.add(new DrawableBanner(R.drawable.OH4));
+        banners.add(new DrawableBanner(R.drawable.OH5));
         bannerSlider.setBanners(banners);
 
         bannerSlider.setOnBannerClickListener(new OnBannerClickListener() {
