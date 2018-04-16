@@ -37,10 +37,82 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
 
 
             </LinearLayout>
@@ -68,10 +140,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView2"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -98,10 +241,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView3"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -128,10 +342,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS4"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -158,10 +443,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS5"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -188,10 +544,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS6"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -218,10 +645,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS7"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -248,10 +746,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS8"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -278,10 +847,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS9"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -308,10 +948,81 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listViewS10"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="studentName"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="studentEmail"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmail"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8503936XXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 

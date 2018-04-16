@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -37,10 +37,65 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="B K Panigiri"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="bkpanigrahi@ee.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
 
             </LinearLayout>
@@ -68,10 +123,185 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView2"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image2"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image2"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Anil Verma"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName2"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="anilverma@chemical.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image3"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image3"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nidhi Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName3"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="njain@chemistry.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image4"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Jayant Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="jayantj@am.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -98,10 +328,248 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView3"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image5"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="0.2"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image5"
+                        android:orientation="vertical"
+                        android:layout_weight="0.8">
+
+                        <TextView
+                            android:id="@+id/facultyName5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Jayant Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName5"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="jayantj@am.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image6"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="0.2"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image6"
+                        android:orientation="vertical"
+                        android:layout_weight="0.8">
+
+                        <TextView
+                            android:id="@+id/facultyName6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Shuchi Sinha"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName6"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="shuchi@dms.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image7"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="0.2"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image7"
+                        android:orientation="vertical"
+                        android:layout_weight="0.8">
+
+                        <TextView
+                            android:id="@+id/facultyName7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Bijaya P Tripathy"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName7"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="btripathi@polymers.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image8"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image8"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Deepak kumar"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName8"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="dkumar@itmmec@iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
 
             </LinearLayout>
 
@@ -128,11 +596,245 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView4"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image9"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image9"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Jayant Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName9"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="jayantj@am.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image10"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image10"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Shravan Kumar"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName10"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="shravankumar@maths.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image11"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image11"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Bhasker Kanseri"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName11"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="bkanseri@physics.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image12"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image12"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nezamuddin"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName12"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="nezam@civil.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -158,11 +860,185 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView5"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image13"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image13"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Anil Verma"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName13"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="anilverma@chemical.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image14"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image14"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Hariprasad Kodamna"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName14"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="kodamana@chemical.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image15"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image15"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Sandeep Jha"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName15"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="sandeepjha@cbme.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -188,17 +1064,190 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView6"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image16"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image16"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Anil Verma"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName16"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="anilverma@chemical.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image17"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image17"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Satyananda Kar"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName17"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="satyananda@ces.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image18"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image18"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Javed Nabibaksha S"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName18"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="jnsheikh@textile.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/FoodAndCatering"
+                android:layout_below="@+id/MediaAndPublicity"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="7dp"
                 android:orientation="vertical"
@@ -218,10 +1267,247 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView7"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image19"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image19"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Anil Verma"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName19"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="anilverma@chemical.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image20"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image20"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/facultyName20"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Seshan Srirangarajan"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/facultyEmail20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName20"
+                            android:layout_weight="1"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="seshan@ee.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image21"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image21"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Deepak U.Patil"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName21"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="deepakpatil@ee.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image22"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image22"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Rijurekha Sen"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName22"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="riju@cse.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -248,10 +1534,186 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView8"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image23"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image23"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Sumer Singh"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName23"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="sumerid@iddc.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image24"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image24"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nidhi Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName24"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="njain@chemistry.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image25"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image25"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Ankur Gupta"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName25"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="ankurgupta@care.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -278,10 +1740,185 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView9"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image26"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image26"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Shaikh Ziauddin Ahar"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail26"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName26"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="zia@dbeb.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image27"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image27"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nidhi Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName27"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="njain@chemistry.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image28"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image28"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Sayantan Paria"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName28"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="sparia@chemistry.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -308,15 +1945,252 @@
                     android:textStyle="bold"
                     android:layout_weight="1"/>
 
-                <ListView
-                    android:id="@+id/listView10"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image29"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image29"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nidhi Jain"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail29"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName29"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="njain@chemistry.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image30"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image30"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName30"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="J.P.Khatait"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail30"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName30"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="jpkhatait@mech.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image31"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image31"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Kavya Dashora"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName31"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="kdashora@rdat.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image32"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/oh1"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_image32"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/facultyName32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Arjun Sharma"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/facultyEmail32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/facultyName32"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="arjunsharma@am.iitd.ac.in"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
 
             </LinearLayout>
 
         </RelativeLayout>
-    </RelativeLayout>
+    </ScrollView>
 
     <ProgressBar
         android:visibility="gone"

@@ -1,5 +1,7 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -25,15 +27,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar =  findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Home()).commit();
@@ -120,9 +113,10 @@ public class MainActivity extends AppCompatActivity
                 fragment = new Disclaimer();
                 break;
 
-            case R.id.nav_website:
-                fragment = new Home();
-                break;
+//            case R.id.nav_website:
+////                Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("http://openhouse.iitd.ac.in/"));
+////                startActivity(browse);
+//                break;
 
             case R.id.nav_contact_us:
                 fragment = new Home();
