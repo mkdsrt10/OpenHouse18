@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
 
 
             case R.id.nav_attractions:
-                fragment = new Home();
+                fragment = new Attraction();
                 break;
 
             case R.id.nav_about_us:
