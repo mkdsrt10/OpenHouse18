@@ -109,10 +109,6 @@ public class MainActivity extends AppCompatActivity
                 fragment = new Home();
                 break;
 
-            case R.id.nav_disclaimer:
-                fragment = new Disclaimer();
-                break;
-
             case R.id.nav_website:
                 Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("http://openhouse.iitd.ac.in/"));
                 startActivity(browse);

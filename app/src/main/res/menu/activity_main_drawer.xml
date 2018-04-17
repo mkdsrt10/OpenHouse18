@@ -56,10 +56,6 @@
                 android:id="@+id/nav_website"
                 android:icon="@drawable/ic_website"
                 android:title="Website" />
-            <item
-                android:id="@+id/nav_contact_us"
-                android:icon="@drawable/ic_contact_us"
-                android:title="Contact Us" />
 
             <item
                 android:id="@+id/nav_about_us"
@@ -67,9 +63,10 @@
                 android:title="About Us" />
 
             <item
-                android:id="@+id/nav_disclaimer"
-                android:icon="@drawable/ic_disclaimer"
-                android:title="Disclaimer" />
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="Contact Us" />
+
         </menu>
     </item>
 

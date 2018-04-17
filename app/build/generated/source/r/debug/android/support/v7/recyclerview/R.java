@@ -86,21 +86,21 @@ public final class R {
         public static final int actions = 0x7f0a0023;
         public static final int async = 0x7f0a0029;
         public static final int blocking = 0x7f0a002e;
-        public static final int chronometer = 0x7f0a003c;
-        public static final int forever = 0x7f0a00a8;
-        public static final int icon = 0x7f0a00ac;
-        public static final int icon_group = 0x7f0a00ad;
-        public static final int info = 0x7f0a00b1;
-        public static final int italic = 0x7f0a00b3;
-        public static final int item_touch_helper_previous_elevation = 0x7f0a00b4;
-        public static final int line1 = 0x7f0a00b8;
-        public static final int line3 = 0x7f0a00b9;
-        public static final int normal = 0x7f0a00d6;
-        public static final int notification_background = 0x7f0a00d7;
-        public static final int notification_main_column = 0x7f0a00d8;
-        public static final int notification_main_column_container = 0x7f0a00d9;
-        public static final int right_icon = 0x7f0a0105;
-        public static final int right_side = 0x7f0a0106;
+        public static final int chronometer = 0x7f0a0039;
+        public static final int forever = 0x7f0a00a5;
+        public static final int icon = 0x7f0a00a9;
+        public static final int icon_group = 0x7f0a00aa;
+        public static final int info = 0x7f0a00ae;
+        public static final int italic = 0x7f0a00b0;
+        public static final int item_touch_helper_previous_elevation = 0x7f0a00b1;
+        public static final int line1 = 0x7f0a00b5;
+        public static final int line3 = 0x7f0a00b6;
+        public static final int normal = 0x7f0a00d3;
+        public static final int notification_background = 0x7f0a00d4;
+        public static final int notification_main_column = 0x7f0a00d5;
+        public static final int notification_main_column_container = 0x7f0a00d6;
+        public static final int right_icon = 0x7f0a0103;
+        public static final int right_side = 0x7f0a0104;
         public static final int text = 0x7f0a0139;
         public static final int text2 = 0x7f0a013a;
         public static final int time = 0x7f0a0143;
@@ -110,12 +110,12 @@ public final class R {
         public static final int status_bar_notification_info_maxnum = 0x7f0b0009;
     }
     public static final class layout {
-        public static final int notification_action = 0x7f0c0034;
-        public static final int notification_action_tombstone = 0x7f0c0035;
-        public static final int notification_template_custom_big = 0x7f0c003c;
-        public static final int notification_template_icon_group = 0x7f0c003d;
-        public static final int notification_template_part_chronometer = 0x7f0c0041;
-        public static final int notification_template_part_time = 0x7f0c0042;
+        public static final int notification_action = 0x7f0c0035;
+        public static final int notification_action_tombstone = 0x7f0c0036;
+        public static final int notification_template_custom_big = 0x7f0c003d;
+        public static final int notification_template_icon_group = 0x7f0c003e;
+        public static final int notification_template_part_chronometer = 0x7f0c0042;
+        public static final int notification_template_part_time = 0x7f0c0043;
     }
     public static final class string {
         public static final int status_bar_notification_info_overflow = 0x7f10003a;

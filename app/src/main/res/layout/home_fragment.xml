@@ -36,7 +36,7 @@
                 app:loopSlides="true" />
 
             <Button
-                android:id="@+id/nav_projects"
+                android:id="@+id/seeProject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -49,7 +49,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/rateProject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -62,7 +62,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/schedule"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -75,7 +75,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/workingDemo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
