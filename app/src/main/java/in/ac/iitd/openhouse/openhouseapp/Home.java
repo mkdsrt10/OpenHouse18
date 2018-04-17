@@ -7,7 +7,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.LoaderManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -78,6 +80,7 @@ public class Home extends Fragment implements View.OnClickListener  {
         ImageButton instashare= (ImageButton) getActivity().findViewById(R.id.instashare);
         ImageButton twittershare= (ImageButton) getActivity().findViewById(R.id.twittershare);
 
+        seeProject.setOnClickListener(this);
         fbshare.setOnClickListener(this);
         instashare.setOnClickListener(this);
         twittershare.setOnClickListener(this);
@@ -87,7 +90,6 @@ public class Home extends Fragment implements View.OnClickListener  {
 
     public void onClick(View v) {
         if (v.getId() == R.id.fbshare) {
-            System.out.println("mayankd");
             Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/openhouseIITD"));
             startActivity(browse);
         }
@@ -100,7 +102,59 @@ public class Home extends Fragment implements View.OnClickListener  {
             startActivity(browse3);
         }
         else if (v.getId() == R.id.nav_projects) {
+// Create new fragment and transaction
+            Fragment newFragment = new projects();
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
 
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
+        }
+
+        else if (v.getId() == R.id.nav_rate_projects) {
+// Create new fragment and transaction
+            Fragment newFragment = new projects();
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
+        }
+
+        else if (v.getId() == R.id.nav_schedule) {
+// Create new fragment and transaction
+            Fragment newFragment = new Schedule();
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
+        }
+
+        else if (v.getId() == R.id.nav_attractions) {
+// Create new fragment and transaction
+            Fragment newFragment = new projects();
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
         }
 
     }
