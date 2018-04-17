@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -100,6 +100,10 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/anim/abc_slide_in_top.xml"
     },
     {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh4.png.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh4.png"
+    },
+    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-v24_ic_attraction.xml.flat",
         "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable-v24/ic_attraction.xml"
     },
@@ -144,12 +148,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-v24_ic_grade_black_24dp.xml.flat",
         "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable-v24/ic_grade_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_home_button.xml.flat",
@@ -184,12 +188,16 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/animator-v21/design_appbar_state_list_animator.xml"
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh2.png.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh2.png"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
@@ -200,12 +208,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/drawable-mdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
@@ -216,16 +224,16 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_ic_action_search_white.xml.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/res/drawable/ic_action_search_white.xml"
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_indicator_square_unselected.xml.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/res/drawable/indicator_square_unselected.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_indicator_square_unselected.xml.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/res/drawable/indicator_square_unselected.xml"
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_ic_action_search_white.xml.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/res/drawable/ic_action_search_white.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
@@ -240,12 +248,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -332,12 +340,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/res/drawable/indicator_dash_unselected.xml"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_faculty_team_list.xml.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/layout/faculty_team_list.xml"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_faculty_team_list.xml.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/layout/faculty_team_list.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -388,12 +396,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
-        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/layout/design_layout_tab_icon.xml"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_nav_header_main.xml.flat",
         "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat",
+        "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_indicator_circle_unselected.xml.flat",
@@ -452,12 +460,12 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-v24_ic_teams.xml.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable-v24/ic_teams.xml"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-v24_ic_teams.xml.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable-v24/ic_teams.xml"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -534,10 +542,6 @@
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh5.JPG.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh5.JPG"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-v24_roundbutton.xml.flat",
@@ -930,6 +934,10 @@
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh5.png.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh5.png"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1388,6 +1396,10 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh3.png.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh3.png"
+    },
+    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -1506,10 +1518,6 @@
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh4.JPG.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh4.JPG"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
@@ -1668,10 +1676,6 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh3.JPG.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh3.JPG"
-    },
-    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_ic_history_white.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/res/drawable/ic_history_white.xml"
     },
@@ -1764,6 +1768,10 @@
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/res/layout/search_view.xml"
     },
     {
+        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh1.png.flat",
+        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh1.png"
+    },
+    {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/color/abc_tint_default.xml"
     },
@@ -1782,10 +1790,6 @@
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
         "source": "/Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh1.JPG.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh1.JPG"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -1842,10 +1846,6 @@
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
         "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/logo.png"
-    },
-    {
-        "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable_oh2.JPG.flat",
-        "source": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/res/drawable/oh2.JPG"
     },
     {
         "merged": "/Users/mayankdubey/Desktop/work/github/OpenHouse18/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",

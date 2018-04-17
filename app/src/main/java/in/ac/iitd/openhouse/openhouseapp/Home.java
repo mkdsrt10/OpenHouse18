@@ -31,12 +31,13 @@ import ss.com.bannerslider.views.BannerSlider;
  * Created by mayankdubey on 17/03/18.
  */
 
-public class Home extends Fragment  {
+public class Home extends Fragment implements View.OnClickListener  {
 
 
 
     List<Banner> banners=new ArrayList<>();
     Button seeProject, rateProject, schedule ;
+    ImageButton fbshare, instashare, twittershare;
     Activity context;
 
     @Nullable
@@ -59,24 +60,6 @@ public class Home extends Fragment  {
         banners.add(new DrawableBanner(R.drawable.oh5));
         bannerSlider.setBanners(banners);
 
-//        Button seeProject = (Button) getActivity().findViewById(R.id.nav_projects);
-//        Button rateProject = (Button) getActivity().findViewById(R.id.nav_rate_projects);
-//        Button schedule = (Button) getActivity().findViewById(R.id.nav_schedule);
-//        ImageButton fbshare= (ImageButton) getActivity().findViewById(R.id.fbshare);
-//        ImageButton instashare= (ImageButton) getActivity().findViewById(R.id.instashare);
-//        ImageButton twittershare= (ImageButton) getActivity().findViewById(R.id.twittershare);
-
-//        seeProject.setOnClickListener(new OnClickListener() {
-//            @Override
-//            public void onClick(final View v) {}});
-//        rateProject.setOnClickListener(new OnClickListener() {
-//            @Override
-//            public void onClick(final View v) {}});
-//        schedule.setOnClickListener(this);
-//        fbshare.setOnClickListener();
-//        instashare.setOnClickListener(this);
-//        twittershare.setOnClickListener(this);
-
 
         return view;
     }
@@ -86,28 +69,41 @@ public class Home extends Fragment  {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
-        getActivity().setTitle("Home");
+        getActivity().setTitle("OpenHouse");
+
+        Button seeProject = (Button) getActivity().findViewById(R.id.nav_projects);
+        Button rateProject = (Button) getActivity().findViewById(R.id.nav_rate_projects);
+        Button schedule = (Button) getActivity().findViewById(R.id.nav_schedule);
+        ImageButton fbshare= (ImageButton) getActivity().findViewById(R.id.fbshare);
+        ImageButton instashare= (ImageButton) getActivity().findViewById(R.id.instashare);
+        ImageButton twittershare= (ImageButton) getActivity().findViewById(R.id.twittershare);
+
+        fbshare.setOnClickListener(this);
+        instashare.setOnClickListener(this);
+        twittershare.setOnClickListener(this);
 
     }
 
 
-//    public void onClick(View v) {
-//        switch (v.getId()){
-//            case R.id.fbshare:
-//                Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/openhouseIITD"));
-//                startActivity(browse);
-//                break;
-//            case R.id.instashare:
-//                Intent browse2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/openhouseiitd"));
-//                startActivity(browse2);
-//                break;
-//        }
-//
-//    }
+    public void onClick(View v) {
+        if (v.getId() == R.id.fbshare) {
+            System.out.println("mayankd");
+            Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/openhouseIITD"));
+            startActivity(browse);
+        }
+        else if (v.getId() == R.id.instashare) {
+            Intent browse2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/openhouseiitd"));
+            startActivity(browse2);
+        }
+        else if (v.getId() == R.id.twittershare) {
+            Intent browse3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitter.com"));
+            startActivity(browse3);
+        }
+        else if (v.getId() == R.id.nav_projects) {
 
-//
+        }
 
-
+    }
 
 
 }

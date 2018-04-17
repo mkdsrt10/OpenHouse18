@@ -113,10 +113,10 @@ public class MainActivity extends AppCompatActivity
                 fragment = new Disclaimer();
                 break;
 
-//            case R.id.nav_website:
-////                Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("http://openhouse.iitd.ac.in/"));
-////                startActivity(browse);
-//                break;
+            case R.id.nav_website:
+                Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("http://openhouse.iitd.ac.in/"));
+                startActivity(browse);
+                break;
 
             case R.id.nav_contact_us:
                 fragment = new Home();
