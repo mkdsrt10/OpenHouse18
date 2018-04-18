@@ -1,58 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="10dp"
-    android:orientation="vertical"
-    android:background="@drawable/circlecard">
+        android:paddingHorizontal="10dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/circlecard"
+            android:elevation="12dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Project Name"
-        android:gravity="center_horizontal|center_vertical"
-        android:textSize="35sp"
-        android:textColor="#000"
-        android:paddingVertical="15dp"
-        android:id="@+id/ProjectName"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Name"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="35sp"
+                android:textColor="#000"
+                android:paddingVertical="15dp"
+                android:id="@+id/ProjectName"
+                />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Project Author"
-        android:gravity="center_horizontal|center_vertical"
-        android:textSize="25sp"
-        android:paddingVertical="15dp"
-        android:textColor="#828282"
-        android:id="@+id/ProjectAuthor"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Author"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:paddingVertical="15dp"
+                android:textColor="#828282"
+                android:id="@+id/ProjectAuthor"
+                />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LH 121"
-        android:gravity="center_horizontal|center_vertical"
-        android:textSize="25sp"
-        android:paddingVertical="15dp"
-        android:textColor="#828282"
-        android:id="@+id/Venue"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LH 121"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:paddingVertical="15dp"
+                android:textColor="#828282"
+                android:id="@+id/Venue"
+                />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_marginVertical="22dp"
-        android:theme="@style/RatingBar" />
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginVertical="22dp"
+                android:theme="@style/RatingBar" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="  Submit  "
-        android:background="@color/colorPrimary"
-        android:textSize="25sp"
-        android:textColor="#F2F2F2"/>
-</LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Submit  "
+                android:background="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textColor="#F2F2F2"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

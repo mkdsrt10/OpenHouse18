@@ -9,7 +9,7 @@ public class event {
 
     public event(String time, String name) {
         this.name = name;
-        this.time = time.substring(11, 16);
+        this.time = time;
 
     }
 

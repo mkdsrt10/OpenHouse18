@@ -8,8 +8,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4sp"
-        android:gravity="center"
-        android:paddingTop="3sp"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingTop="10sp"
         android:text="@string/faq"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         tools:textSize="18sp" />

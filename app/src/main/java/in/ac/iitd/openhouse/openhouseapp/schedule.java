@@ -112,7 +112,7 @@ public class Schedule extends Fragment {
                                 //creating a event object and giving them the values from json object
                                 if(i>0){
                                     if(!eventObject.getString("event").equals(resArray.getJSONObject(i-1).getString("event"))){
-                                        event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
+                                        event event1 = new event(eventObject.getString("time"), eventObject.getString("event"));
 
                                         if(eventObject.getString("type").equals("programs")) {
                                             //adding the event to eventlist
@@ -126,7 +126,7 @@ public class Schedule extends Fragment {
                                     }
                                 }
                                 else{
-                                    event event1 = new event(eventObject.getString("starttime"), eventObject.getString("event"));
+                                    event event1 = new event(eventObject.getString("time"), eventObject.getString("event"));
                                     if(eventObject.getString("type").equals("programs")) {
                                         //adding the event to eventlist
                                         eventList2.add(event1);

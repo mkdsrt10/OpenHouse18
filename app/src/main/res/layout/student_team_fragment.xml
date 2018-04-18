@@ -44,32 +44,32 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:id="@+id/profile_imagess1"
+                        android:layout_width="73dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/korku" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images1"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
+                            android:id="@+id/studentNames1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Deepak Korku"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -78,14 +78,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
+                            android:id="@+id/studentEmails1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames1"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="korkudeepak@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -94,14 +94,90 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
+                            android:id="@+id/studentPhones1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails1"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9109211457"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_imagess2"
+                        android:layout_width="53dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images1"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentNames2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Saumya Arora"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmails2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames2"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="xyz@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhones2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails2"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="910921XXXX"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -147,13 +223,13 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:id="@+id/profile_images3"
+                        android:layout_width="80dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/sangam" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -165,14 +241,14 @@
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
+                            android:id="@+id/studentNames3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Sangam Bharti"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -181,14 +257,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
+                            android:id="@+id/studentEmails3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames3"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="sangamsam96@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -197,14 +273,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
+                            android:id="@+id/studentPhones3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails3"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9560933374"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -213,6 +289,77 @@
                             android:autoSizeTextType="uniform"/>
                     </LinearLayout>
 
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/nikhil" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nikhil Meena"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="nikhilmeena769@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8800487634"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -232,7 +379,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:background="@color/colorPrimary"
-                    android:text="Invitation and Registration Coordinator"
+                    android:text="Inauguration and Awards Coordinator"
                     android:textColor="#F2F2F2"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
@@ -248,32 +395,32 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:id="@+id/profile_images4"
+                        android:layout_width="86dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/abhishek" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
+                            android:id="@+id/studentNames4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Abhishek Agrawal"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -282,14 +429,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
+                            android:id="@+id/studentEmails4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="abhi.agrawal0307@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -298,14 +445,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
+                            android:id="@+id/studentPhones4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9571285225"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -316,6 +463,84 @@
 
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_images5"
+                        android:layout_width="84dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/shubankar" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images5"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentNames5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Subhankar Dash"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmails5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames5"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="dashsubhankar@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhones5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails5"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9810146295"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
 
             </LinearLayout>
 
@@ -349,12 +574,12 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
+                        android:id="@+id/profile_images6"
                         android:layout_width="96dp"
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
+                        android:src="@drawable/jagadish"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -362,19 +587,19 @@
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images6"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
+                            android:id="@+id/studentNames6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Jagadish Patil"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -383,14 +608,14 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
+                            android:id="@+id/studentEmails6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames6"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="Jagdishpatilciv@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -399,14 +624,530 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
+                            android:id="@+id/studentPhones6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails6"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="8329820791"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_images7"
+                        android:layout_width="96dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/viraj" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images7"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentNames7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Viraj Singh"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmails7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames7"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="virajsingh9199@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhones7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails7"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9899822094"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_images8"
+                        android:layout_width="99dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/antariksh" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentNames8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Antriksh Mathur"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmails8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="antrikshmathur63@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhones8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9810337377"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_images9"
+                        android:layout_width="97dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/nazish" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/studentNames9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nazish Umar Ansari"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentEmails9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="nazishumeransari@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:id="@+id/studentPhones9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="82877208423"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="88dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/mayank" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Mayank Mishra"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="mayank956m@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9560942246"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="93dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/aditi" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Aditi Neema"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="aditi.neema23@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9560933365"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="95dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/alok" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Alok Meena"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="111alokmeena@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="7023775199"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="108dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Shubham Choudhary"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="shubham8826010329@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8826010329"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -450,32 +1191,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="104dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/mehrol" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Shubham Mehrol"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -484,14 +1223,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="mehrol.shubham@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -500,14 +1238,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9540109967"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -518,31 +1255,6 @@
 
 
                 </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/FoodAndCatering"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="7dp"
-                android:orientation="vertical"
-                android:id="@+id/MediaAndPublicity">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
-                    android:text="Media and Publicity Coordinator"
-                    android:textColor="#F2F2F2"
-                    android:paddingVertical="7dp"
-                    android:textAlignment="center"
-                    android:textAllCaps="true"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_weight="1"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -551,32 +1263,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="79dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/person" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Biswajit De"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -585,14 +1295,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="xyz@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -601,14 +1310,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="95712XXXXX"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -620,7 +1328,153 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Asif Anis"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="xyz@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="95712XXXXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="94dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/sid" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Rachakonda Siddartha"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="xyz@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="95712XXXXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -634,16 +1488,16 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto"
+                    android:layout_weight="1"
                     android:background="@color/colorPrimary"
-                    android:text="App Coordinator"
-                    android:textColor="#F2F2F2"
+                    android:fontFamily="@font/roboto"
                     android:paddingVertical="7dp"
+                    android:text="App Coordinator"
                     android:textAlignment="center"
                     android:textAllCaps="true"
+                    android:textColor="#F2F2F2"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_weight="1"/>
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -652,32 +1506,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="79dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/sachin" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Sachin Kumawat"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -686,14 +1538,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="sachinkumawat2206@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -702,14 +1553,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9560942206"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -717,7 +1567,6 @@
                             android:autoSizeMaxTextSize="20dp"
                             android:autoSizeTextType="uniform"/>
                     </LinearLayout>
-
 
                 </LinearLayout>
 
@@ -753,32 +1602,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="79dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/person" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Yuvraj Suryavanshi"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -787,14 +1634,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="yuvrajs131196@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -803,14 +1649,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="95712XXXXX"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -819,6 +1664,147 @@
                             android:autoSizeTextType="uniform"/>
                     </LinearLayout>
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="92dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Sumakesh"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="sumakesh1997sbdav@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="8527332502"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Divyansh Gupta"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="xyz@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="95712XXXXX"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -854,32 +1840,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="79dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/mukul" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Mukul Madaan"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -888,14 +1872,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="mukulmadaan1996@gmail.com"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -904,14 +1887,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="9953418194"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -920,6 +1902,147 @@
                             android:autoSizeTextType="uniform"/>
                     </LinearLayout>
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/anubhuti" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Anubhuti Agarwal"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="anubhuti1997@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9810144203"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/sajid" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="MD Sajid"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="iamalrashid@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9971045915"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -939,7 +2062,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:background="@color/colorPrimary"
-                    android:text="Inauguration and Awards Coordinator"
+                    android:text="Invitation And Registration Coordinator"
                     android:textColor="#F2F2F2"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
@@ -955,32 +2078,30 @@
                     android:layout_weight="2">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
-                        android:layout_width="96dp"
+                        android:layout_width="79dp"
                         android:layout_height="105dp"
+                        android:layout_weight="1"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/oh1"
-                        android:layout_weight="1"/>
+                        android:src="@drawable/person" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentTop="true"
-                        android:layout_toEndOf="@+id/profile_image"
+                        android:layout_toEndOf="@+id/profile_images4"
                         android:orientation="vertical"
                         android:layout_weight="4">
 
                         <TextView
-                            android:id="@+id/studentName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
                             android:paddingTop="7dp"
-                            android:text="studentName"
+                            android:text="Ayushi Agarwal"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#000000"
@@ -989,14 +2110,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentEmail"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentName"
+                            android:layout_below="@+id/studentNames4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="studentEmail"
+                            android:text="ch7140162@chemical.iitd.ac.in"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -1005,14 +2125,13 @@
                             android:autoSizeTextType="uniform"/>
 
                         <TextView
-                            android:id="@+id/studentPhone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/studentEmail"
+                            android:layout_below="@+id/studentEmails4"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto"
                             android:paddingLeft="40dp"
-                            android:text="8503936XXX"
+                            android:text="8745837300"
                             android:textAlignment="textStart"
                             android:textAllCaps="false"
                             android:textColor="#828282"
@@ -1021,6 +2140,147 @@
                             android:autoSizeTextType="uniform"/>
                     </LinearLayout>
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="79dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/sahil" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Sahil Badhana"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="bhadanasahil44@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="9650873044"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="54dp"
+                        android:layout_height="105dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:paddingVertical="10dp"
+                        android:src="@drawable/person" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/profile_images4"
+                        android:orientation="vertical"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:paddingTop="7dp"
+                            android:text="Nitin Shekhar"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="30dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentNames4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="xyz@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/studentEmails4"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="40dp"
+                            android:text="7895292811"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="#828282"
+                            android:textSize="18sp"
+                            android:autoSizeMaxTextSize="20dp"
+                            android:autoSizeTextType="uniform"/>
+                    </LinearLayout>
 
                 </LinearLayout>
 

@@ -36,27 +36,26 @@
             android:layout_below="@+id/contact_faculty">
 
             <TextView
+                android:paddingVertical="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Prof XYZ"
+                android:text="Prof B K Panigiri"
+                android:textColor="#000"
+                android:textSize="25sp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
             <TextView
+                android:paddingVertical="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="xyz@gmail.com"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="967465XXXX"
+                android:text="bkpanigrahi@ee.iitd.ac.in"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         </LinearLayout>
 
         <LinearLayout
+            android:paddingTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -87,22 +86,27 @@
             android:layout_below="@+id/contact_student">
 
             <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Prof XYZ"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-            <TextView
+                android:paddingVertical="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="xyz@gmail.com"
+                android:text="Deepak Korku"
+                android:textSize="25sp"
+                android:textColor="#000"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
             <TextView
+                android:paddingVertical="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="967465XXXX"
+                android:text="korkudeepak@gmail.com"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Phone No. -  9340193689"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
 

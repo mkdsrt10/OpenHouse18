@@ -7,8 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -56,19 +58,6 @@ public class projects extends Fragment  {
         //change R.layout.yourlayoutfilename for each of your fragments
 
         View view = inflater.inflate(R.layout.projects_fragment, container, false);
-        ListView testlistview = view.findViewById(R.id.listView);
-
-
-
-
-        ProgressBar progressBar = view.findViewById(R.id.progressBar);
-
-
-        heroList1 = new ArrayList<>();
-
-        loadHeroList(testlistview, progressBar);
-
-
 
         return view;
 
@@ -81,7 +70,22 @@ public class projects extends Fragment  {
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Projects");
 
+        ListView testlistview = view.findViewById(R.id.listView);
+        ProgressBar progressBar = view.findViewById(R.id.progressBar);
 
+        heroList1 = new ArrayList<>();
+
+        loadHeroList(testlistview, progressBar);
+
+        testlistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                Toast.makeText(getActivity(),
+                        "Click ListItem Number " + position, Toast.LENGTH_LONG)
+                        .show();
+            }
+        });
     }
 
 

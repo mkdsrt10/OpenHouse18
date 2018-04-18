@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_rate_projects:
-                fragment = new Home();
+                fragment = new projects();
+//                fragment.getActivity().setTitle("Rate Project");
                 break;
 
             case R.id.nav_website:
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.nav_contact_us:
-                fragment = new Home();
+                fragment = new contactUs();
                 break;
 
             case R.id.faculty:
@@ -126,6 +127,10 @@ public class MainActivity extends AppCompatActivity
                 fragment = new StudentTeam();
                 break;
 
+            case R.id.nav_navigate :
+                fragment = new Map();
+                break;
+
 
             default:
                 fragment = new Home();
@@ -134,8 +139,13 @@ public class MainActivity extends AppCompatActivity
 
         //replacing the fragment
         if (fragment != null) {
+            System.out.println(fragment.getClass().toString()+"mkn");
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment);
+            if ( !fragment.getClass().toString().equals("Home")){
+                ft.addToBackStack(null);
+            }
+
             ft.commit();
         }
 

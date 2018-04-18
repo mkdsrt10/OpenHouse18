@@ -76,14 +76,15 @@ public class Home extends Fragment implements View.OnClickListener  {
         Button seeProject = (Button) getActivity().findViewById(R.id.seeProject);
         Button rateProject = (Button) getActivity().findViewById(R.id.rateProject);
         Button schedule = (Button) getActivity().findViewById(R.id.schedule);
+        Button workingdemo = (Button) getActivity().findViewById(R.id.workingDemo);
         ImageButton fbshare= (ImageButton) getActivity().findViewById(R.id.fbshare);
         ImageButton instashare= (ImageButton) getActivity().findViewById(R.id.instashare);
         ImageButton twittershare= (ImageButton) getActivity().findViewById(R.id.twittershare);
 
         seeProject.setOnClickListener(this);
-//        rateProject.setOnClickListener(this);
+        rateProject.setOnClickListener(this);
         schedule.setOnClickListener(this);
-//        seeProject.setOnClickListener(this);
+        workingdemo.setOnClickListener(this);
         fbshare.setOnClickListener(this);
         instashare.setOnClickListener(this);
         twittershare.setOnClickListener(this);
@@ -118,19 +119,34 @@ public class Home extends Fragment implements View.OnClickListener  {
             transaction.commit();
         }
 
-//        else if (v.getId() == R.id.nav_rate_projects) {
-//// Create new fragment and transaction
-//            Fragment newFragment1 = new projects();
-//            FragmentTransaction transaction = getFragmentManager().beginTransaction();
-//
-//// Replace whatever is in the fragment_container view with this fragment,
-//// and add the transaction to the back stack if needed
-//            transaction.replace(R.id.content_frame, newFragment1);
-//            transaction.addToBackStack(null);
-//
-//// Commit the transaction
-//            transaction.commit();
-//        }
+        else if (v.getId() == R.id.rateProject) {
+// Create new fragment and transaction
+            Fragment newFragment = new projects();
+//            newFragment.getActivity().setTitle("Rate Project");
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
+        }
+
+        else if (v.getId() == R.id.workingDemo) {
+// Create new fragment and transaction
+            Fragment newFragment1 = new Attraction();
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+            transaction.replace(R.id.content_frame, newFragment1);
+            transaction.addToBackStack(null);
+
+// Commit the transaction
+            transaction.commit();
+        }
 
         else if (v.getId() == R.id.schedule) {
 // Create new fragment and transaction
