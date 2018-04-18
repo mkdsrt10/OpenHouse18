@@ -400,7 +400,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Shuchi"
+                        android:src="@drawable/shuchi"
                         android:layout_weight="0.2"/>
 
                     <LinearLayout
@@ -668,7 +668,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Shravan"
+                        android:src="@drawable/shravan"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -932,7 +932,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Hariprasad"
+                        android:src="@drawable/hariprasad"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -1136,7 +1136,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Satyananda"
+                        android:src="@drawable/satyananda"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -1195,7 +1195,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Javed"
+                        android:src="@drawable/javed"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -1339,7 +1339,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Seshan"
+                        android:src="@drawable/seshan"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -1461,7 +1461,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Rijurekha"
+                        android:src="@drawable/rijurekha"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -1752,7 +1752,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Shaikh"
+                        android:src="@drawable/shaikh"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -2017,7 +2017,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Khatait"
+                        android:src="@drawable/khatait"
                         android:layout_weight="1"/>
 
                     <LinearLayout
@@ -2078,7 +2078,7 @@
                         android:layout_height="105dp"
                         android:paddingLeft="7dp"
                         android:paddingVertical="10dp"
-                        android:src="@drawable/Kavya"
+                        android:src="@drawable/kavya"
                         android:layout_weight="1"/>
 
                     <LinearLayout

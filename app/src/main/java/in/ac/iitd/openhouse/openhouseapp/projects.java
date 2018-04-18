@@ -4,6 +4,7 @@ package in.ac.iitd.openhouse.openhouseapp;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -81,9 +82,7 @@ public class projects extends Fragment  {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                Toast.makeText(getActivity(),
-                        "Click ListItem Number " + position, Toast.LENGTH_LONG)
-                        .show();
+                Log.i("testy", "I Clicked on Row " + position + " and it worked!");
             }
         });
     }
