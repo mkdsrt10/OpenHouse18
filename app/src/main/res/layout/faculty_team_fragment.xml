@@ -28,9 +28,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Chairperson"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -39,10 +39,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image"
@@ -114,9 +116,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Vice-Chairperson"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -125,10 +127,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image2"
@@ -185,10 +189,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image3"
@@ -245,10 +251,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image4"
@@ -319,9 +327,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Invitation and Registration"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -330,10 +338,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image5"
@@ -390,10 +400,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image6"
@@ -450,10 +462,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image7"
@@ -511,10 +525,12 @@
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image8"
@@ -587,9 +603,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Infrastructure"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -598,10 +614,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image9"
@@ -658,10 +676,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image10"
@@ -718,10 +738,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image11"
@@ -778,10 +800,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image12"
@@ -851,9 +875,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Food and Catering"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -862,10 +886,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image13"
@@ -922,10 +948,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image14"
@@ -982,10 +1010,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image15"
@@ -1055,9 +1085,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Media and Publicity"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -1066,10 +1096,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image16"
@@ -1126,10 +1158,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image17"
@@ -1185,10 +1219,12 @@
 
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image18"
@@ -1258,9 +1294,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Web and App"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -1269,10 +1305,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image19"
@@ -1329,10 +1367,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image20"
@@ -1390,10 +1430,12 @@
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image21"
@@ -1451,10 +1493,12 @@
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image22"
@@ -1525,9 +1569,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Print and Design"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -1536,10 +1580,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image23"
@@ -1596,10 +1642,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image24"
@@ -1657,10 +1705,12 @@
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image25"
@@ -1731,9 +1781,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Hospitality and Reception"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -1742,10 +1792,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image26"
@@ -1802,10 +1854,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image27"
@@ -1862,10 +1916,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image28"
@@ -1936,9 +1992,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorWhite"
                     android:text="Inauguration and Awards"
-                    android:textColor="#F2F2F2"
+                    android:textColor="@color/colorDarkGray"
                     android:paddingVertical="7dp"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -1947,10 +2003,12 @@
                     android:layout_weight="1"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image29"
@@ -2007,10 +2065,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image30"
@@ -2068,10 +2128,12 @@
 
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image31"
@@ -2128,10 +2190,12 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_weight="2">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/profile_image32"

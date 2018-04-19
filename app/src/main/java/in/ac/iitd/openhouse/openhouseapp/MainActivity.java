@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_rate_projects:
                 fragment = new projects();
-//                fragment.getActivity().setTitle("Rate Project");
                 break;
 
             case R.id.nav_website:

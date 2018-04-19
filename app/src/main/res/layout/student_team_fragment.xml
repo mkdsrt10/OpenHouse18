@@ -11,7 +11,7 @@
 
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <LinearLayout
@@ -27,28 +27,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Overall Coordinators"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_imagess1"
                     android:layout_width="73dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:paddingVertical="10dp"
                     android:src="@drawable/korku" />
 
@@ -65,9 +68,9 @@
                         android:id="@+id/studentNames1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Deepak Korku"
                         android:textAlignment="textStart"
@@ -82,9 +85,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames1"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="korkudeepak@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -98,9 +101,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails1"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9109211457"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -117,15 +120,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_imagess2"
                     android:layout_width="73dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/somya" />
 
                 <LinearLayout
@@ -141,9 +146,9 @@
                         android:id="@+id/studentNames2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Saumya Arora"
                         android:textAlignment="textStart"
@@ -158,9 +163,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames2"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="somyarora96@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -174,9 +179,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails2"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9958175356"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -206,29 +211,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Website Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images3"
                     android:layout_width="80dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/sangam" />
 
                 <LinearLayout
@@ -244,9 +252,9 @@
                         android:id="@+id/studentNames3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Sangam Bharti"
                         android:textAlignment="textStart"
@@ -261,9 +269,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames3"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="sangamsam96@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -277,9 +285,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails3"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9560933374"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -296,15 +304,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_image4"
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/nikhil" />
 
                 <LinearLayout
@@ -320,9 +331,9 @@
                         android:id="@+id/studentNames44"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Nikhil Meena"
                         android:textAlignment="textStart"
@@ -337,9 +348,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames4"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="nikhilmeena769@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -352,9 +363,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails4"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="8800487634"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -381,29 +392,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Inauguration and Awards Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images5"
                     android:layout_width="86dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/abhishek" />
 
                 <LinearLayout
@@ -419,9 +433,9 @@
                         android:id="@+id/studentNames5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Abhishek Agrawal"
                         android:textAlignment="textStart"
@@ -436,9 +450,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames5"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="abhi.agrawal0307@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -452,9 +466,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails5"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9571285225"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -471,15 +485,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images6"
                     android:layout_width="84dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/shubankar" />
 
                 <LinearLayout
@@ -495,9 +512,9 @@
                         android:id="@+id/studentNames6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Subhankar Dash"
                         android:textAlignment="textStart"
@@ -512,9 +529,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames6"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="dashsubhankar@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -528,9 +545,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails6"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9810146295"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -560,30 +577,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Infrastructure Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images7"
                     android:layout_width="96dp"
                     android:layout_height="105dp"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/jagadish"
-                    android:layout_weight="1"/>
+                    />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -598,9 +618,9 @@
                         android:id="@+id/studentNames7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Jagadish Patil"
                         android:textAlignment="textStart"
@@ -615,9 +635,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames7"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="Jagdishpatilciv@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -631,9 +651,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails7"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="8329820791"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -650,15 +670,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images28"
                     android:layout_width="96dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/viraj" />
 
                 <LinearLayout
@@ -674,9 +697,9 @@
                         android:id="@+id/studentNames28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Viraj Singh"
                         android:textAlignment="textStart"
@@ -691,9 +714,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames28"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="virajsingh9199@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -707,9 +730,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails28"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9899822094"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -726,15 +749,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images8"
                     android:layout_width="99dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/antariksh" />
 
                 <LinearLayout
@@ -750,9 +776,9 @@
                         android:id="@+id/studentNames8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Antriksh Mathur"
                         android:textAlignment="textStart"
@@ -767,9 +793,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames8"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="antrikshmathur63@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -783,9 +809,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails8"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9810337377"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -802,15 +828,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_images9"
                     android:layout_width="97dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/nazish" />
 
                 <LinearLayout
@@ -826,9 +855,9 @@
                         android:id="@+id/studentNames9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Nazish Umar Ansari"
                         android:textAlignment="textStart"
@@ -843,9 +872,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames9"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="nazishumeransari@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -859,9 +888,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails9"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="82877208423"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -878,15 +907,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_image10"
                     android:layout_width="88dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/mayank" />
 
                 <LinearLayout
@@ -902,9 +934,9 @@
                         android:id="@+id/studentNames10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Mayank Mishra"
                         android:textAlignment="textStart"
@@ -919,9 +951,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames10"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="mayank956m@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -935,9 +967,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails10"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9560942246"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -954,15 +986,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="93dp"
                     android:id="@+id/profile_image11"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/aditi" />
 
                 <LinearLayout
@@ -978,9 +1013,9 @@
                         android:id="@+id/studentNames11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Aditi Neema"
                         android:textAlignment="textStart"
@@ -995,9 +1030,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames11"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="aditi.neema23@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1010,9 +1045,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails11"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9560933365"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1029,15 +1064,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="95dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image12"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/alok" />
 
                 <LinearLayout
@@ -1053,9 +1091,9 @@
                         android:id="@+id/studentNames12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Alok Meena"
                         android:textAlignment="textStart"
@@ -1070,9 +1108,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames12"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="111alokmeena@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1085,9 +1123,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails12"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="7023775199"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1104,14 +1142,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="108dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:id="@+id/profile_image13"
                     android:src="@drawable/person" />
 
@@ -1128,9 +1169,9 @@
                         android:id="@+id/studentNames13"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Shubham Choudhary"
                         android:textAlignment="textStart"
@@ -1145,9 +1186,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames13"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="shubham8826010329@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1160,9 +1201,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails13"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="8826010329"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1190,29 +1231,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Food and Catering Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="104dp"
                     android:id="@+id/profile_image14"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/mehrol" />
 
                 <LinearLayout
@@ -1228,9 +1272,9 @@
                         android:id="@+id/studentNames14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Shubham Mehrol"
                         android:textAlignment="textStart"
@@ -1245,9 +1289,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames14"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="mehrol.shubham@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1260,9 +1304,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails14"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9540109967"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1279,15 +1323,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
                     android:id="@+id/profile_image15"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/person" />
 
                 <LinearLayout
@@ -1303,9 +1350,9 @@
                         android:id="@+id/studentNames15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Biswajit De"
                         android:textAlignment="textStart"
@@ -1320,9 +1367,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames15"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="xyz@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1335,9 +1382,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails4"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="95712XXXXX"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1354,15 +1401,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image16"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/person" />
 
                 <LinearLayout
@@ -1378,9 +1428,9 @@
                         android:id="@+id/studentNames16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Asif Anis"
                         android:textAlignment="textStart"
@@ -1395,9 +1445,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames16"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="xyz@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1410,9 +1460,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails16"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="95712XXXXX"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1428,15 +1478,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="94dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image17"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/sid" />
 
                 <LinearLayout
@@ -1452,9 +1505,9 @@
                         android:layout_width="match_parent"
                         android:id="@+id/studentNames17"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Rachakonda Siddartha"
                         android:textAlignment="textStart"
@@ -1469,9 +1522,9 @@
                         android:id="@+id/studentEmails17"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames17"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="xyz@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1484,9 +1537,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails17"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="95712XXXXX"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1516,14 +1569,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                
+                android:background="@color/colorWhite"
                 android:fontFamily="@font/roboto"
                 android:paddingVertical="7dp"
                 android:text="App Coordinator"
                 android:textAlignment="center"
                 android:textAllCaps="true"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -1531,15 +1584,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image18"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/sachin" />
 
                 <LinearLayout
@@ -1554,9 +1610,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:id="@+id/studentNames18"
                         android:text="Sachin Kumawat"
@@ -1572,9 +1628,9 @@
                         android:id="@+id/studentEmails18"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames18"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="sachinkumawat2206@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1587,9 +1643,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails18"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9560942206"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1616,29 +1672,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Print and Design Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image19"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/person" />
 
                 <LinearLayout
@@ -1653,9 +1712,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:id="@+id/studentNames19"
                         android:paddingTop="7dp"
                         android:text="Yuvraj Suryavanshi"
@@ -1671,9 +1730,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames19"
                         android:id="@+id/studentEmails19"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="yuvrajs131196@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1686,9 +1745,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails19"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="95712XXXXX"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1704,15 +1763,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="92dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image20"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/sumakesh" />
 
                 <LinearLayout
@@ -1727,9 +1789,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:id="@+id/studentNames20"
                         android:paddingTop="7dp"
                         android:text="Sumakesh"
@@ -1745,9 +1807,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames20"
                         android:id="@+id/studentEmails20"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="sumakesh1997sbdav@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1760,9 +1822,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails20"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="8527332502"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1778,14 +1840,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    
+                    android:paddingHorizontal="7dp"
+                   
                     android:id="@+id/profile_image21"
                     android:src="@drawable/person" />
 
@@ -1801,10 +1866,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:id="@+id/studentNames21"
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Divyansh Gupta"
                         android:textAlignment="textStart"
@@ -1819,9 +1884,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames21"
                         android:id="@+id/studentEmails21"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="xyz@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1834,9 +1899,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails21"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="95712XXXXX"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1863,29 +1928,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Hospitality and Reception Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image22"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/mukul" />
 
                 <LinearLayout
@@ -1900,9 +1968,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Mukul Madaan"
                         android:id="@+id/studentNames22"
@@ -1918,9 +1986,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames22"
                         android:id="@+id/studentEmails22"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="mukulmadaan1996@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1933,9 +2001,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails22"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9953418194"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -1951,15 +2019,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image23"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/anubhuti" />
 
                 <LinearLayout
@@ -1974,9 +2045,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Anubhuti Agarwal"
                         android:id="@+id/studentNames23"
@@ -1992,9 +2063,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames23"
                         android:id="@+id/studentEmails23"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="anubhuti1997@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2007,9 +2078,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails23"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9810144203"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2025,15 +2096,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image24"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/sajid" />
 
                 <LinearLayout
@@ -2048,9 +2122,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="MD Sajid"
                         android:textAlignment="textStart"
@@ -2065,10 +2139,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames24"
-                        android:layout_weight="1"
+                        
                         android:id="@+id/studentEmails24"
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="iamalrashid@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2081,9 +2155,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails24"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9971045915"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2110,29 +2184,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:background="@color/colorPrimary"
+                android:background="@color/colorWhite"
                 android:text="Invitation And Registration Coordinator"
-                android:textColor="#F2F2F2"
+                android:textColor="@color/colorDarkGray"
                 android:paddingVertical="7dp"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_weight="1"/>
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
+                    
                     android:id="@+id/profile_image25"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/person" />
 
                 <LinearLayout
@@ -2147,9 +2224,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:text="Ayushi Agarwal"
                         android:textAlignment="textStart"
@@ -2164,9 +2241,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames25"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:id="@+id/studentEmails25"
                         android:text="ch7140162@chemical.iitd.ac.in"
                         android:textAlignment="textStart"
@@ -2180,9 +2257,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails25"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="8745837300"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2198,15 +2275,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="79dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
-                    android:paddingLeft="7dp"
+                    
+                    android:paddingHorizontal="7dp"
                     android:id="@+id/profile_image26"
-                    android:paddingVertical="10dp"
+                   
                     android:src="@drawable/sahil" />
 
                 <LinearLayout
@@ -2221,9 +2301,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:id="@+id/studentNames26"
                         android:paddingTop="7dp"
                         android:text="Sahil Badhana"
@@ -2239,9 +2319,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames26"
                         android:id="@+id/studentEmails26"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="bhadanasahil44@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2254,9 +2334,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails26"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="9650873044"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2272,15 +2352,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_weight="2">
+android:background="@drawable/circlecard"
+android:elevation="3dp"
+android:layout_marginVertical="2dp"
+                >
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="54dp"
                     android:layout_height="105dp"
-                    android:layout_weight="1"
+                    
                     android:id="@+id/profile_image27"
-                    android:paddingLeft="7dp"
-                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="7dp"
+                   
                     android:src="@drawable/person" />
 
                 <LinearLayout
@@ -2295,9 +2378,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:paddingTop="7dp"
                         android:id="@+id/studentNames27"
                         android:text="Nitin Shekhar"
@@ -2313,9 +2396,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentNames27"
                         android:id="@+id/studentEmails27"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="xyz@gmail.com"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
@@ -2328,9 +2411,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/studentEmails27"
-                        android:layout_weight="1"
+                        
                         android:fontFamily="@font/roboto"
-                        android:paddingLeft="40dp"
+                        android:paddingHorizontal="40dp"
                         android:text="7895292811"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"

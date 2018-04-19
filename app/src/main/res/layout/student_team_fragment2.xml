@@ -40,7 +40,10 @@
                 <ListView
                     android:id="@+id/listViewS1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circlecard"
+                    android:elevation="3dp"
+                    android:layout_marginVertical="2dp"/>
 
 
             </LinearLayout>
