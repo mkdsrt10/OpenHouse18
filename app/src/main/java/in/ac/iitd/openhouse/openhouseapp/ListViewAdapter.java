@@ -1,13 +1,16 @@
 package in.ac.iitd.openhouse.openhouseapp;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by mayankdubey on 17/03/18.
@@ -17,6 +20,7 @@ public class ListViewAdapter extends ArrayAdapter<Hero> {
 
     //the hero list that will be displayed
     private List<Hero> heroList;
+    private ArrayList<Hero> arrayList;
 
     //the context object
     private Context mCtx;
@@ -27,6 +31,8 @@ public class ListViewAdapter extends ArrayAdapter<Hero> {
         super(mCtx, R.layout.projects_list, heroList);
         this.heroList = heroList;
         this.mCtx = mCtx;
+        this.arrayList = new ArrayList<Hero>();
+        this.arrayList.addAll(heroList);
     }
 
     //this method will return the list item
@@ -51,5 +57,22 @@ public class ListViewAdapter extends ArrayAdapter<Hero> {
 
         //returning the listitem
         return listViewItem;
+    }
+
+    public void filter(String charText) {
+        Log.d("MyApp","I am here");
+        charText = charText.toLowerCase(Locale.getDefault());
+        heroList.clear();
+        if (charText.length() == 0) {
+            heroList.addAll(arrayList);
+        } else {
+            for (Hero wp : heroList) {
+                if (wp.getImageUrl().toLowerCase(Locale.getDefault())
+                        .contains(charText)) {
+                    heroList.add(wp);
+                }
+            }
+        }
+        notifyDataSetChanged();
     }
 }

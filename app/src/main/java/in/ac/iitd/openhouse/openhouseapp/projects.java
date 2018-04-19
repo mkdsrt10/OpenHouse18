@@ -4,6 +4,7 @@ package in.ac.iitd.openhouse.openhouseapp;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -66,30 +68,40 @@ public class projects extends Fragment  {
     }
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(View view, @Nullable final Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Projects");
 
         ListView testlistview = view.findViewById(R.id.listView);
+        SearchView sv=(SearchView) view.findViewById(R.id.searchbar);
         ProgressBar progressBar = view.findViewById(R.id.progressBar);
 
         heroList1 = new ArrayList<>();
 
-        loadHeroList(testlistview, progressBar);
+        loadHeroList(testlistview, progressBar, view);
+
 
         testlistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                Log.i("testy", "I Clicked on Row " + position + " and it worked!");
+            public void onItemClick(AdapterView<?> adapter, View view, int position, long arg3) {
+                System.out.println("nmb");
+                Fragment newFragment1 = new rateProject();
+                View v = newFragment1.getView();
+                v = setContent(adapter, view, position, arg3, v);
+                newFragment1.onViewCreated(v, savedInstanceState);
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.content_frame, newFragment1);
+                transaction.addToBackStack(null);
+                transaction.commit();
+
             }
         });
     }
 
 
 
-    private void loadHeroList(final ListView listview1, final ProgressBar progressBar) {
+    private void loadHeroList(final ListView listview1, final ProgressBar progressBar, final View view) {
         //getting the progressbar
 
         progressBar.setVisibility(View.VISIBLE);
@@ -125,11 +137,30 @@ public class projects extends Fragment  {
                                 }
                             }
                             //creating custom adapter object
-                            ListViewAdapter adapter1 = new ListViewAdapter(heroList1, getActivity());
+                            final ListViewAdapter adapter1 = new ListViewAdapter(heroList1, getActivity());
 
 
                             //adding the adapter to listview
                             listview1.setAdapter(adapter1);
+
+                            SearchView sv=(SearchView) view.findViewById(R.id.searchbar);
+
+
+                            sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+                                @Override
+                                public boolean onQueryTextSubmit(String txt) {
+                                    // TODO Auto-generated method stub
+                                    return false;
+                                }
+                                @Override
+                                public boolean onQueryTextChange(String txt) {
+                                    // TODO Auto-generated method stub
+
+                                    adapter1.getFilter().filter(txt);
+                                    return true;
+                                }
+                            });
 
 
                         } catch (JSONException e) {
@@ -152,6 +183,16 @@ public class projects extends Fragment  {
         requestQueue.add(stringRequest);
     }
 
+    public View setContent(AdapterView<?> adapter, View view, int position, long arg3, View v){
+        final Hero item = (Hero) adapter.getItemAtPosition(position);
+        String text = "Title:"+item.getName();
+        TextView rProject = (TextView) v.findViewById(R.id.ProjectName);
+        rProject.setText(text);
+        String text2 = "By:"+item.getImageUrl();
+        TextView rProject2 = (TextView) v.findViewById(R.id.ProjectAuthor);
+        rProject2.setText(text2);
+        return v;
+    }
 
 
 }

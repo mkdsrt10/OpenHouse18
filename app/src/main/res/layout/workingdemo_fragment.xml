@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:background="@color/casualBackground">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="iitd.messfeeback.myapplication.submitRating"
+        android:background="@color/casualBackground"
+        android:paddingHorizontal="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/attr1"
+            android:paddingVertical="10dp"
+            android:background="@drawable/circlecard"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="308dp"
+                android:src="@drawable/wd2" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/attr2"
+            android:paddingTop="10dp"
+            android:background="@drawable/circlecard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="12dp"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:layout_below="@+id/attr1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="308dp"
+                android:src="@drawable/wd4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/attr3"
+            android:paddingTop="10dp"
+            android:background="@drawable/circlecard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="12dp"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:layout_below="@+id/attr2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="308dp"
+                android:src="@drawable/wd1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/attr4"
+            android:paddingTop="10dp"
+            android:background="@drawable/circlecard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="12dp"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:layout_below="@+id/attr3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="308dp"
+                android:src="@drawable/wd3"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

@@ -136,7 +136,7 @@ public class Home extends Fragment implements View.OnClickListener  {
 
         else if (v.getId() == R.id.workingDemo) {
 // Create new fragment and transaction
-            Fragment newFragment1 = new Attraction();
+            Fragment newFragment1 = new WorkingDemo();
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
 
 // Replace whatever is in the fragment_container view with this fragment,

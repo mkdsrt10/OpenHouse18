@@ -11,10 +11,16 @@
         android:id="@+id/firstList"
         android:orientation="vertical">
 
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchbar"
+            android:queryHint="Search By Title"></SearchView>
 
 
         <ListView
-            android:clickable="true"
+            android:clickable="false"
+            android:focusable="false"
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

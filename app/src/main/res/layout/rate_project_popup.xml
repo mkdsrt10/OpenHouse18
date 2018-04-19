@@ -21,24 +21,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Project Name"
                 android:gravity="center_horizontal|center_vertical"
                 android:textSize="35sp"
                 android:textColor="#000"
                 android:paddingVertical="15dp"
-                android:id="@+id/ProjectName"
-                />
+                android:id="@+id/ProjectName" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Project Author"
                 android:gravity="center_horizontal|center_vertical"
                 android:textSize="25sp"
                 android:paddingVertical="15dp"
                 android:textColor="#828282"
-                android:id="@+id/ProjectAuthor"
-                />
+                android:id="@+id/ProjectAuthor" />
 
             <TextView
                 android:layout_width="match_parent"

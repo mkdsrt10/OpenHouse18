@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/chairpersonLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Overall Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chairpersonLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/viceChairpersonLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Website Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viceChairpersonLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/InvitationAndRegistrationLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Invitation and Registration Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/InvitationAndRegistrationLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/Infrastructure">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Infrastructure Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Infrastructure"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/FoodAndCatering">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Food And Catering Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/FoodAndCatering"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/MediaAndPublicity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Media And Publicity Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/FoodAndCatering"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/WebAndApp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="App Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/WebAndApp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/PrintAndDesign">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Print And Design Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PrintAndDesign"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/HospitalityAndReception">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Hospitality And Reception Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/HospitalityAndReception"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:id="@+id/InaugurationAndAwards">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:background="@color/colorWhite"
+                    android:text="Inaugration And Awards Coordinators"
+                    android:textColor="@color/colorDarkGray"
+                    android:paddingVertical="7dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"/>
+                <ListView
+                    android:id="@+id/listViewS10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</android.support.constraint.ConstraintLayout>
