@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.SearchView;
@@ -74,7 +77,7 @@ public class projects extends Fragment  {
         getActivity().setTitle("Projects");
 
         ListView testlistview = view.findViewById(R.id.listView);
-        SearchView sv=(SearchView) view.findViewById(R.id.searchbar);
+//        SearchView sv=(SearchView) view.findViewById(R.id.searchbar);
         ProgressBar progressBar = view.findViewById(R.id.progressBar);
 
         heroList1 = new ArrayList<>();
@@ -82,21 +85,21 @@ public class projects extends Fragment  {
         loadHeroList(testlistview, progressBar, view);
 
 
-        testlistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapter, View view, int position, long arg3) {
-                System.out.println("nmb");
-                Fragment newFragment1 = new rateProject();
-                View v = newFragment1.getView();
-                v = setContent(adapter, view, position, arg3, v);
-                newFragment1.onViewCreated(v, savedInstanceState);
-                FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.replace(R.id.content_frame, newFragment1);
-                transaction.addToBackStack(null);
-                transaction.commit();
-
-            }
-        });
+//        testlistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapter, View view, int position, long arg3) {
+//                System.out.println("nmb");
+//                Fragment newFragment1 = new rateProject();
+//                View v = newFragment1.getView();
+//                v = setContent(adapter, view, position, arg3, v);
+//                newFragment1.onViewCreated(v, savedInstanceState);
+//                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+//                transaction.replace(R.id.content_frame, newFragment1);
+//                transaction.addToBackStack(null);
+//                transaction.commit();
+//
+//            }
+//        });
     }
 
 
@@ -142,25 +145,48 @@ public class projects extends Fragment  {
 
                             //adding the adapter to listview
                             listview1.setAdapter(adapter1);
+//
+                            EditText sv=(EditText) view.findViewById(R.id.searchbar);
 
-                            SearchView sv=(SearchView) view.findViewById(R.id.searchbar);
-
-
-                            sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                            sv.addTextChangedListener(new TextWatcher() {
 
                                 @Override
-                                public boolean onQueryTextSubmit(String txt) {
-                                    // TODO Auto-generated method stub
-                                    return false;
+                                public void onTextChanged(CharSequence cs, int arg1, int arg2, int arg3) {
+                                    // When user changed the Text
+                                    adapter1.getFilter().filter(cs);
                                 }
+
                                 @Override
-                                public boolean onQueryTextChange(String txt) {
+                                public void beforeTextChanged(CharSequence arg0, int arg1, int arg2,
+                                                              int arg3) {
                                     // TODO Auto-generated method stub
 
-                                    adapter1.getFilter().filter(txt);
-                                    return true;
+                                }
+
+                                @Override
+                                public void afterTextChanged(Editable arg0) {
+                                    // TODO Auto-generated method stub
                                 }
                             });
+
+//                            SearchView sv = (SearchView) view.findViewById(R.id.searchbar);
+//
+//
+//                            sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//
+//                                @Override
+//                                public boolean onQueryTextSubmit(String txt) {
+//                                    // TODO Auto-generated method stub
+//                                    return false;
+//                                }
+//                                @Override
+//                                public boolean onQueryTextChange(String txt) {
+//                                    // TODO Auto-generated method stub
+//
+//                                    adapter1.getFilter().filter(txt);
+//                                    return true;
+//                                }
+//                            });
 
 
                         } catch (JSONException e) {

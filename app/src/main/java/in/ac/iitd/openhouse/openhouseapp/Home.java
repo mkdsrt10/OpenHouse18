@@ -121,7 +121,7 @@ public class Home extends Fragment implements View.OnClickListener  {
 
         else if (v.getId() == R.id.rateProject) {
 // Create new fragment and transaction
-            Fragment newFragment = new projects();
+            Fragment newFragment = new rateProject();
 //            newFragment.getActivity().setTitle("Rate Project");
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
 

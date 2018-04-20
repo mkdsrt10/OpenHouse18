@@ -13,6 +13,11 @@
             android:icon="@drawable/ic_project"
             android:title="Projects" />
         <item
+            android:id="@+id/nav_demo"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Demos" />
+
+        <item
             android:id="@+id/nav_schedule"
             android:icon="@drawable/ic_schedule"
             android:title="Schedule" />

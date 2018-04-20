@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.volley:volley:1.0.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/24d7be78bf016793ecfe7e84dc595dd6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/AndroidManifest.xml:2:1-16:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:17:1-55:12
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/cdcbed621eae3b3647230127e64b0a73/AndroidManifest.xml:2:1-12:12
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:design:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/12635df626ece25a263765a1a12dc4d2/AndroidManifest.xml:17:1-31:12
@@ -23,20 +24,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/mayankdubey
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/a1a5a4cdbdb5af5bf84264fbc3dcb48e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/11217d902160b680e483241ed2fea069/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e4233457d72d53174e7935d0e49cdf16/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:2:11-69
@@ -49,7 +50,7 @@ ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/Andro
 	android:name
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:8:5-44:19
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:8:5-45:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/24d7be78bf016793ecfe7e84dc595dd6/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/24d7be78bf016793ecfe7e84dc595dd6/AndroidManifest.xml:9:5-20
 MERGED from [com.ss.bannerslider:bannerslider:1.8.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/bannerslider-1.8.0.aar/fef6e39c530f3d436b0ad3c766ae1723/AndroidManifest.xml:11:5-14:19
@@ -113,37 +114,39 @@ ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/Andro
 	android:name
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:17:13-79
 activity#in.ac.iitd.openhouse.openhouseapp.Splash
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:23:9-32:20
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:23:9-33:20
 	android:label
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:25:13-58
+	android:icon
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:26:13-42
 	android:theme
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:26:13-56
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
 		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:24:13-35
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:31:27-74
 activity#in.ac.iitd.openhouse.openhouseapp.MainActivity
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:34:9-38:20
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:35:9-39:20
 	android:label
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:36:13-45
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:37:13-45
 	android:theme
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:37:13-56
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:35:13-41
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:36:13-41
 meta-data#preloaded_fonts
-ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:40:9-42:57
+ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:41:9-43:57
 	android:resource
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:42:13-54
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:43:13-54
 	android:name
-		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:41:13-43
+		ADDED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml:42:13-43
 uses-sdk
 INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mayankdubey/Desktop/work/github/OpenHouse18/app/src/main/AndroidManifest.xml
@@ -156,6 +159,8 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.g
 MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.4.0.aar/9e69700aab62425b8644e6c9aa48bc73/AndroidManifest.xml:19:5-43
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3be9d6994e8827b2c7eb11c02d3e39ce/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/cdcbed621eae3b3647230127e64b0a73/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/cdcbed621eae3b3647230127e64b0a73/AndroidManifest.xml:8:5-10:41
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:19:5-21:41
 MERGED from [br.com.mauker.materialsearchview:materialsearchview:1.2.2] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.2.2.aar/863ff832d0f370c07703b0ac4f1c930a/AndroidManifest.xml:19:5-21:41
 MERGED from [com.android.support:design:26.1.0] /Users/mayankdubey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dc411e7f94001e290a9c868c07a2dc68/AndroidManifest.xml:21:5-23:62

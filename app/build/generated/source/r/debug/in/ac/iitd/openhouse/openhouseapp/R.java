@@ -3230,13 +3230,52 @@ public final class R {
      */
     public static final int windowNoTitle=0x7f04019a;
     /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      */
-    public static final int zxing_framing_rect_height=0x7f04019b;
+    public static final int zoomage_animateOnReset=0x7f04019b;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int zoomage_autoCenter=0x7f04019c;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ALWAYS</td><td>2</td><td></td></tr>
+     * <tr><td>NEVER</td><td>3</td><td></td></tr>
+     * <tr><td>OVER</td><td>1</td><td></td></tr>
+     * <tr><td>UNDER</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int zoomage_autoResetMode=0x7f04019d;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int zoomage_maxScale=0x7f04019e;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int zoomage_minScale=0x7f04019f;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int zoomage_restrictBounds=0x7f0401a0;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int zoomage_translatable=0x7f0401a1;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int zoomage_zoomable=0x7f0401a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3244,13 +3283,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int zxing_framing_rect_width=0x7f04019c;
+    public static final int zxing_framing_rect_height=0x7f0401a3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int zxing_framing_rect_width=0x7f0401a4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_possible_result_points=0x7f04019d;
+    public static final int zxing_possible_result_points=0x7f0401a5;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3263,37 +3310,37 @@ public final class R {
      * <tr><td>fitXY</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int zxing_preview_scaling_strategy=0x7f04019e;
+    public static final int zxing_preview_scaling_strategy=0x7f0401a6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_result_view=0x7f04019f;
+    public static final int zxing_result_view=0x7f0401a7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int zxing_scanner_layout=0x7f0401a0;
+    public static final int zxing_scanner_layout=0x7f0401a8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zxing_use_texture_view=0x7f0401a1;
+    public static final int zxing_use_texture_view=0x7f0401a9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_viewfinder_laser=0x7f0401a2;
+    public static final int zxing_viewfinder_laser=0x7f0401aa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_viewfinder_mask=0x7f0401a3;
+    public static final int zxing_viewfinder_mask=0x7f0401ab;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f050000;
@@ -3814,489 +3861,495 @@ public final class R {
   }
   public static final class id {
     public static final int ALT=0x7f0a0000;
-    public static final int CTRL=0x7f0a0001;
-    public static final int FUNCTION=0x7f0a0002;
-    public static final int FoodAndCatering=0x7f0a0003;
-    public static final int HospitalityAndReception=0x7f0a0004;
-    public static final int InaugurationAndAwards=0x7f0a0005;
-    public static final int Infrastructure=0x7f0a0006;
-    public static final int InvitationAndRegistrationLayout=0x7f0a0007;
-    public static final int META=0x7f0a0008;
-    public static final int MediaAndPublicity=0x7f0a0009;
-    public static final int PrintAndDesign=0x7f0a000a;
-    public static final int ProjectAuthor=0x7f0a000b;
-    public static final int ProjectName=0x7f0a000c;
-    public static final int SHIFT=0x7f0a000d;
-    public static final int SYM=0x7f0a000e;
-    public static final int Venue=0x7f0a000f;
-    public static final int WebAndApp=0x7f0a0010;
-    public static final int action0=0x7f0a0011;
-    public static final int action_back=0x7f0a0012;
-    public static final int action_bar=0x7f0a0013;
-    public static final int action_bar_activity_content=0x7f0a0014;
-    public static final int action_bar_container=0x7f0a0015;
-    public static final int action_bar_root=0x7f0a0016;
-    public static final int action_bar_spinner=0x7f0a0017;
-    public static final int action_bar_subtitle=0x7f0a0018;
-    public static final int action_bar_title=0x7f0a0019;
-    public static final int action_clear=0x7f0a001a;
-    public static final int action_container=0x7f0a001b;
-    public static final int action_context_bar=0x7f0a001c;
-    public static final int action_divider=0x7f0a001d;
-    public static final int action_image=0x7f0a001e;
-    public static final int action_menu_divider=0x7f0a001f;
-    public static final int action_menu_presenter=0x7f0a0020;
-    public static final int action_mode_bar=0x7f0a0021;
-    public static final int action_mode_bar_stub=0x7f0a0022;
-    public static final int action_mode_close_button=0x7f0a0023;
-    public static final int action_text=0x7f0a0024;
-    public static final int action_voice=0x7f0a0025;
-    public static final int actions=0x7f0a0026;
-    public static final int activity_chooser_view_content=0x7f0a0027;
-    public static final int add=0x7f0a0028;
-    public static final int alertTitle=0x7f0a0029;
-    public static final int all=0x7f0a002a;
-    public static final int always=0x7f0a002b;
-    public static final int async=0x7f0a002c;
-    public static final int attr1=0x7f0a002d;
-    public static final int attr1Text=0x7f0a002e;
-    public static final int attr2=0x7f0a002f;
-    public static final int attr2Text=0x7f0a0030;
-    public static final int attr3=0x7f0a0031;
-    public static final int attr3Text=0x7f0a0032;
-    public static final int attr4=0x7f0a0033;
-    public static final int auto=0x7f0a0034;
-    public static final int banner_slider1=0x7f0a0035;
-    public static final int basic=0x7f0a0036;
-    public static final int beginning=0x7f0a0037;
-    public static final int blocking=0x7f0a0038;
-    public static final int bottom=0x7f0a0039;
-    public static final int buttonPanel=0x7f0a003a;
-    public static final int cancel_action=0x7f0a003b;
-    public static final int center=0x7f0a003c;
-    public static final int centerCrop=0x7f0a003d;
-    public static final int center_horizontal=0x7f0a003e;
-    public static final int center_vertical=0x7f0a003f;
-    public static final int chains=0x7f0a0040;
-    public static final int chairpersonLayout=0x7f0a0041;
-    public static final int checkbox=0x7f0a0042;
-    public static final int chronometer=0x7f0a0043;
-    public static final int circle=0x7f0a0044;
-    public static final int clip_horizontal=0x7f0a0045;
-    public static final int clip_vertical=0x7f0a0046;
-    public static final int collapseActionView=0x7f0a0047;
-    public static final int contact_faculty=0x7f0a0048;
-    public static final int contact_faculty_details=0x7f0a0049;
-    public static final int contact_student=0x7f0a004a;
-    public static final int contact_student_details=0x7f0a004b;
-    public static final int container=0x7f0a004c;
-    public static final int contentPanel=0x7f0a004d;
-    public static final int content_frame=0x7f0a004e;
-    public static final int coordinator=0x7f0a004f;
-    public static final int custom=0x7f0a0050;
-    public static final int customPanel=0x7f0a0051;
-    public static final int dash=0x7f0a0052;
-    public static final int date_of_program=0x7f0a0053;
-    public static final int decor_content_parent=0x7f0a0054;
-    public static final int default_activity_button=0x7f0a0055;
-    public static final int design_bottom_sheet=0x7f0a0056;
-    public static final int design_menu_item_action_area=0x7f0a0057;
-    public static final int design_menu_item_action_area_stub=0x7f0a0058;
-    public static final int design_menu_item_text=0x7f0a0059;
-    public static final int design_navigation_view=0x7f0a005a;
-    public static final int disableHome=0x7f0a005b;
-    public static final int drawer_layout=0x7f0a005c;
-    public static final int edit_query=0x7f0a005d;
-    public static final int end=0x7f0a005e;
-    public static final int end_padder=0x7f0a005f;
-    public static final int enterAlways=0x7f0a0060;
-    public static final int enterAlwaysCollapsed=0x7f0a0061;
-    public static final int et_search=0x7f0a0062;
-    public static final int eventName=0x7f0a0063;
-    public static final int exitUntilCollapsed=0x7f0a0064;
-    public static final int expand_activities_button=0x7f0a0065;
-    public static final int expanded_menu=0x7f0a0066;
-    public static final int fab=0x7f0a0067;
-    public static final int faculty=0x7f0a0068;
-    public static final int facultyEmail=0x7f0a0069;
-    public static final int facultyEmail10=0x7f0a006a;
-    public static final int facultyEmail11=0x7f0a006b;
-    public static final int facultyEmail12=0x7f0a006c;
-    public static final int facultyEmail13=0x7f0a006d;
-    public static final int facultyEmail14=0x7f0a006e;
-    public static final int facultyEmail15=0x7f0a006f;
-    public static final int facultyEmail16=0x7f0a0070;
-    public static final int facultyEmail17=0x7f0a0071;
-    public static final int facultyEmail18=0x7f0a0072;
-    public static final int facultyEmail19=0x7f0a0073;
-    public static final int facultyEmail2=0x7f0a0074;
-    public static final int facultyEmail20=0x7f0a0075;
-    public static final int facultyEmail21=0x7f0a0076;
-    public static final int facultyEmail22=0x7f0a0077;
-    public static final int facultyEmail23=0x7f0a0078;
-    public static final int facultyEmail24=0x7f0a0079;
-    public static final int facultyEmail25=0x7f0a007a;
-    public static final int facultyEmail26=0x7f0a007b;
-    public static final int facultyEmail27=0x7f0a007c;
-    public static final int facultyEmail28=0x7f0a007d;
-    public static final int facultyEmail29=0x7f0a007e;
-    public static final int facultyEmail3=0x7f0a007f;
-    public static final int facultyEmail30=0x7f0a0080;
-    public static final int facultyEmail31=0x7f0a0081;
-    public static final int facultyEmail32=0x7f0a0082;
-    public static final int facultyEmail4=0x7f0a0083;
-    public static final int facultyEmail5=0x7f0a0084;
-    public static final int facultyEmail6=0x7f0a0085;
-    public static final int facultyEmail7=0x7f0a0086;
-    public static final int facultyEmail8=0x7f0a0087;
-    public static final int facultyEmail9=0x7f0a0088;
-    public static final int facultyName=0x7f0a0089;
-    public static final int facultyName10=0x7f0a008a;
-    public static final int facultyName11=0x7f0a008b;
-    public static final int facultyName12=0x7f0a008c;
-    public static final int facultyName13=0x7f0a008d;
-    public static final int facultyName14=0x7f0a008e;
-    public static final int facultyName15=0x7f0a008f;
-    public static final int facultyName16=0x7f0a0090;
-    public static final int facultyName17=0x7f0a0091;
-    public static final int facultyName18=0x7f0a0092;
-    public static final int facultyName19=0x7f0a0093;
-    public static final int facultyName2=0x7f0a0094;
-    public static final int facultyName20=0x7f0a0095;
-    public static final int facultyName21=0x7f0a0096;
-    public static final int facultyName22=0x7f0a0097;
-    public static final int facultyName23=0x7f0a0098;
-    public static final int facultyName24=0x7f0a0099;
-    public static final int facultyName25=0x7f0a009a;
-    public static final int facultyName26=0x7f0a009b;
-    public static final int facultyName27=0x7f0a009c;
-    public static final int facultyName28=0x7f0a009d;
-    public static final int facultyName29=0x7f0a009e;
-    public static final int facultyName3=0x7f0a009f;
-    public static final int facultyName30=0x7f0a00a0;
-    public static final int facultyName31=0x7f0a00a1;
-    public static final int facultyName32=0x7f0a00a2;
-    public static final int facultyName4=0x7f0a00a3;
-    public static final int facultyName5=0x7f0a00a4;
-    public static final int facultyName6=0x7f0a00a5;
-    public static final int facultyName7=0x7f0a00a6;
-    public static final int facultyName8=0x7f0a00a7;
-    public static final int facultyName9=0x7f0a00a8;
-    public static final int fbshare=0x7f0a00a9;
-    public static final int fill=0x7f0a00aa;
-    public static final int fill_horizontal=0x7f0a00ab;
-    public static final int fill_vertical=0x7f0a00ac;
-    public static final int firstList=0x7f0a00ad;
-    public static final int firstList1=0x7f0a00ae;
-    public static final int firstList2=0x7f0a00af;
-    public static final int fitCenter=0x7f0a00b0;
-    public static final int fitXY=0x7f0a00b1;
-    public static final int fixed=0x7f0a00b2;
-    public static final int forever=0x7f0a00b3;
-    public static final int ghost_view=0x7f0a00b4;
-    public static final int home=0x7f0a00b5;
-    public static final int homeAsUp=0x7f0a00b6;
-    public static final int icon=0x7f0a00b7;
-    public static final int icon_group=0x7f0a00b8;
-    public static final int ifRoom=0x7f0a00b9;
-    public static final int image=0x7f0a00ba;
-    public static final int imageView=0x7f0a00bb;
-    public static final int info=0x7f0a00bc;
-    public static final int instashare=0x7f0a00bd;
-    public static final int italic=0x7f0a00be;
-    public static final int item_touch_helper_previous_elevation=0x7f0a00bf;
-    public static final int iv_icon=0x7f0a00c0;
-    public static final int largeLabel=0x7f0a00c1;
-    public static final int left=0x7f0a00c2;
-    public static final int line1=0x7f0a00c3;
-    public static final int line3=0x7f0a00c4;
-    public static final int listMode=0x7f0a00c5;
-    public static final int listView=0x7f0a00c6;
-    public static final int listView1=0x7f0a00c7;
-    public static final int listView2=0x7f0a00c8;
-    public static final int listViewS1=0x7f0a00c9;
-    public static final int listViewS10=0x7f0a00ca;
-    public static final int listViewS2=0x7f0a00cb;
-    public static final int listViewS3=0x7f0a00cc;
-    public static final int listViewS4=0x7f0a00cd;
-    public static final int listViewS5=0x7f0a00ce;
-    public static final int listViewS6=0x7f0a00cf;
-    public static final int listViewS7=0x7f0a00d0;
-    public static final int listViewS8=0x7f0a00d1;
-    public static final int listViewS9=0x7f0a00d2;
-    public static final int list_item=0x7f0a00d3;
-    public static final int masked=0x7f0a00d4;
-    public static final int media_actions=0x7f0a00d5;
-    public static final int message=0x7f0a00d6;
-    public static final int middle=0x7f0a00d7;
-    public static final int mini=0x7f0a00d8;
-    public static final int multiply=0x7f0a00d9;
-    public static final int nameLayout=0x7f0a00da;
-    public static final int name_of_event=0x7f0a00db;
-    public static final int nav_about_us=0x7f0a00dc;
-    public static final int nav_attractions=0x7f0a00dd;
-    public static final int nav_buttons=0x7f0a00de;
-    public static final int nav_contact_us=0x7f0a00df;
-    public static final int nav_home=0x7f0a00e0;
-    public static final int nav_navigate=0x7f0a00e1;
-    public static final int nav_projects=0x7f0a00e2;
-    public static final int nav_rate_projects=0x7f0a00e3;
-    public static final int nav_schedule=0x7f0a00e4;
-    public static final int nav_view=0x7f0a00e5;
-    public static final int nav_website=0x7f0a00e6;
-    public static final int navigation_header_container=0x7f0a00e7;
-    public static final int never=0x7f0a00e8;
-    public static final int none=0x7f0a00e9;
-    public static final int normal=0x7f0a00ea;
-    public static final int notification_background=0x7f0a00eb;
-    public static final int notification_main_column=0x7f0a00ec;
-    public static final int notification_main_column_container=0x7f0a00ed;
-    public static final int packed=0x7f0a00ee;
-    public static final int parallax=0x7f0a00ef;
-    public static final int parent=0x7f0a00f0;
-    public static final int parentPanel=0x7f0a00f1;
-    public static final int parent_matrix=0x7f0a00f2;
-    public static final int pin=0x7f0a00f3;
-    public static final int profile_image=0x7f0a00f4;
-    public static final int profile_image10=0x7f0a00f5;
-    public static final int profile_image11=0x7f0a00f6;
-    public static final int profile_image12=0x7f0a00f7;
-    public static final int profile_image13=0x7f0a00f8;
-    public static final int profile_image14=0x7f0a00f9;
-    public static final int profile_image15=0x7f0a00fa;
-    public static final int profile_image16=0x7f0a00fb;
-    public static final int profile_image17=0x7f0a00fc;
-    public static final int profile_image18=0x7f0a00fd;
-    public static final int profile_image19=0x7f0a00fe;
-    public static final int profile_image2=0x7f0a00ff;
-    public static final int profile_image20=0x7f0a0100;
-    public static final int profile_image21=0x7f0a0101;
-    public static final int profile_image22=0x7f0a0102;
-    public static final int profile_image23=0x7f0a0103;
-    public static final int profile_image24=0x7f0a0104;
-    public static final int profile_image25=0x7f0a0105;
-    public static final int profile_image26=0x7f0a0106;
-    public static final int profile_image27=0x7f0a0107;
-    public static final int profile_image28=0x7f0a0108;
-    public static final int profile_image29=0x7f0a0109;
-    public static final int profile_image3=0x7f0a010a;
-    public static final int profile_image30=0x7f0a010b;
-    public static final int profile_image31=0x7f0a010c;
-    public static final int profile_image32=0x7f0a010d;
-    public static final int profile_image4=0x7f0a010e;
-    public static final int profile_image5=0x7f0a010f;
-    public static final int profile_image6=0x7f0a0110;
-    public static final int profile_image7=0x7f0a0111;
-    public static final int profile_image8=0x7f0a0112;
-    public static final int profile_image9=0x7f0a0113;
-    public static final int profile_images1=0x7f0a0114;
-    public static final int profile_images10=0x7f0a0115;
-    public static final int profile_images11=0x7f0a0116;
-    public static final int profile_images12=0x7f0a0117;
-    public static final int profile_images13=0x7f0a0118;
-    public static final int profile_images14=0x7f0a0119;
-    public static final int profile_images15=0x7f0a011a;
-    public static final int profile_images16=0x7f0a011b;
-    public static final int profile_images17=0x7f0a011c;
-    public static final int profile_images18=0x7f0a011d;
-    public static final int profile_images19=0x7f0a011e;
-    public static final int profile_images20=0x7f0a011f;
-    public static final int profile_images21=0x7f0a0120;
-    public static final int profile_images22=0x7f0a0121;
-    public static final int profile_images23=0x7f0a0122;
-    public static final int profile_images24=0x7f0a0123;
-    public static final int profile_images25=0x7f0a0124;
-    public static final int profile_images26=0x7f0a0125;
-    public static final int profile_images27=0x7f0a0126;
-    public static final int profile_images28=0x7f0a0127;
-    public static final int profile_images3=0x7f0a0128;
-    public static final int profile_images4=0x7f0a0129;
-    public static final int profile_images5=0x7f0a012a;
-    public static final int profile_images6=0x7f0a012b;
-    public static final int profile_images7=0x7f0a012c;
-    public static final int profile_images8=0x7f0a012d;
-    public static final int profile_images9=0x7f0a012e;
-    public static final int profile_imagess1=0x7f0a012f;
-    public static final int profile_imagess2=0x7f0a0130;
-    public static final int progressBar=0x7f0a0131;
-    public static final int progress_circular=0x7f0a0132;
-    public static final int progress_horizontal=0x7f0a0133;
-    public static final int radio=0x7f0a0134;
-    public static final int rateProject=0x7f0a0135;
-    public static final int ratingBar=0x7f0a0136;
-    public static final int right=0x7f0a0137;
-    public static final int right_icon=0x7f0a0138;
-    public static final int right_side=0x7f0a0139;
-    public static final int round_square=0x7f0a013a;
-    public static final int save_image_matrix=0x7f0a013b;
-    public static final int save_non_transition_alpha=0x7f0a013c;
-    public static final int save_scale_type=0x7f0a013d;
-    public static final int schedule=0x7f0a013e;
-    public static final int screen=0x7f0a013f;
-    public static final int scroll=0x7f0a0140;
-    public static final int scrollIndicatorDown=0x7f0a0141;
-    public static final int scrollIndicatorUp=0x7f0a0142;
-    public static final int scrollView=0x7f0a0143;
-    public static final int scrollable=0x7f0a0144;
-    public static final int search_badge=0x7f0a0145;
-    public static final int search_bar=0x7f0a0146;
-    public static final int search_button=0x7f0a0147;
-    public static final int search_close_btn=0x7f0a0148;
-    public static final int search_edit_frame=0x7f0a0149;
-    public static final int search_go_btn=0x7f0a014a;
-    public static final int search_layout=0x7f0a014b;
-    public static final int search_mag_icon=0x7f0a014c;
-    public static final int search_plate=0x7f0a014d;
-    public static final int search_src_text=0x7f0a014e;
-    public static final int search_voice_btn=0x7f0a014f;
-    public static final int searchbar=0x7f0a0150;
-    public static final int seeProject=0x7f0a0151;
-    public static final int select_dialog_listview=0x7f0a0152;
-    public static final int shortcut=0x7f0a0153;
-    public static final int showCustom=0x7f0a0154;
-    public static final int showHome=0x7f0a0155;
-    public static final int showTitle=0x7f0a0156;
-    public static final int smallLabel=0x7f0a0157;
-    public static final int snackbar_action=0x7f0a0158;
-    public static final int snackbar_text=0x7f0a0159;
-    public static final int snap=0x7f0a015a;
-    public static final int social_media_icon=0x7f0a015b;
-    public static final int spacer=0x7f0a015c;
-    public static final int special_events=0x7f0a015d;
-    public static final int split_action_bar=0x7f0a015e;
-    public static final int spread=0x7f0a015f;
-    public static final int spread_inside=0x7f0a0160;
-    public static final int square=0x7f0a0161;
-    public static final int src_atop=0x7f0a0162;
-    public static final int src_in=0x7f0a0163;
-    public static final int src_over=0x7f0a0164;
-    public static final int start=0x7f0a0165;
-    public static final int status_bar_latest_event_content=0x7f0a0166;
-    public static final int student=0x7f0a0167;
-    public static final int studentEmail=0x7f0a0168;
-    public static final int studentEmails1=0x7f0a0169;
-    public static final int studentEmails10=0x7f0a016a;
-    public static final int studentEmails11=0x7f0a016b;
-    public static final int studentEmails12=0x7f0a016c;
-    public static final int studentEmails13=0x7f0a016d;
-    public static final int studentEmails14=0x7f0a016e;
-    public static final int studentEmails15=0x7f0a016f;
-    public static final int studentEmails16=0x7f0a0170;
-    public static final int studentEmails17=0x7f0a0171;
-    public static final int studentEmails18=0x7f0a0172;
-    public static final int studentEmails19=0x7f0a0173;
-    public static final int studentEmails2=0x7f0a0174;
-    public static final int studentEmails20=0x7f0a0175;
-    public static final int studentEmails21=0x7f0a0176;
-    public static final int studentEmails22=0x7f0a0177;
-    public static final int studentEmails23=0x7f0a0178;
-    public static final int studentEmails24=0x7f0a0179;
-    public static final int studentEmails25=0x7f0a017a;
-    public static final int studentEmails26=0x7f0a017b;
-    public static final int studentEmails27=0x7f0a017c;
-    public static final int studentEmails28=0x7f0a017d;
-    public static final int studentEmails3=0x7f0a017e;
-    public static final int studentEmails4=0x7f0a017f;
-    public static final int studentEmails5=0x7f0a0180;
-    public static final int studentEmails6=0x7f0a0181;
-    public static final int studentEmails7=0x7f0a0182;
-    public static final int studentEmails8=0x7f0a0183;
-    public static final int studentEmails9=0x7f0a0184;
-    public static final int studentName=0x7f0a0185;
-    public static final int studentNames1=0x7f0a0186;
-    public static final int studentNames10=0x7f0a0187;
-    public static final int studentNames11=0x7f0a0188;
-    public static final int studentNames12=0x7f0a0189;
-    public static final int studentNames13=0x7f0a018a;
-    public static final int studentNames14=0x7f0a018b;
-    public static final int studentNames15=0x7f0a018c;
-    public static final int studentNames16=0x7f0a018d;
-    public static final int studentNames17=0x7f0a018e;
-    public static final int studentNames18=0x7f0a018f;
-    public static final int studentNames19=0x7f0a0190;
-    public static final int studentNames2=0x7f0a0191;
-    public static final int studentNames20=0x7f0a0192;
-    public static final int studentNames21=0x7f0a0193;
-    public static final int studentNames22=0x7f0a0194;
-    public static final int studentNames23=0x7f0a0195;
-    public static final int studentNames24=0x7f0a0196;
-    public static final int studentNames25=0x7f0a0197;
-    public static final int studentNames26=0x7f0a0198;
-    public static final int studentNames27=0x7f0a0199;
-    public static final int studentNames28=0x7f0a019a;
-    public static final int studentNames3=0x7f0a019b;
-    public static final int studentNames4=0x7f0a019c;
-    public static final int studentNames44=0x7f0a019d;
-    public static final int studentNames5=0x7f0a019e;
-    public static final int studentNames6=0x7f0a019f;
-    public static final int studentNames7=0x7f0a01a0;
-    public static final int studentNames8=0x7f0a01a1;
-    public static final int studentNames9=0x7f0a01a2;
-    public static final int studentPhone=0x7f0a01a3;
-    public static final int studentPhones1=0x7f0a01a4;
-    public static final int studentPhones10=0x7f0a01a5;
-    public static final int studentPhones2=0x7f0a01a6;
-    public static final int studentPhones28=0x7f0a01a7;
-    public static final int studentPhones3=0x7f0a01a8;
-    public static final int studentPhones5=0x7f0a01a9;
-    public static final int studentPhones6=0x7f0a01aa;
-    public static final int studentPhones7=0x7f0a01ab;
-    public static final int studentPhones8=0x7f0a01ac;
-    public static final int studentPhones9=0x7f0a01ad;
-    public static final int submenuarrow=0x7f0a01ae;
-    public static final int submit_area=0x7f0a01af;
-    public static final int suggestion_list=0x7f0a01b0;
-    public static final int tabMode=0x7f0a01b1;
-    public static final int text=0x7f0a01b2;
-    public static final int text2=0x7f0a01b3;
-    public static final int textSpacerNoButtons=0x7f0a01b4;
-    public static final int textSpacerNoTitle=0x7f0a01b5;
-    public static final int textView2=0x7f0a01b6;
-    public static final int textViewImageUrl=0x7f0a01b7;
-    public static final int textViewName=0x7f0a01b8;
-    public static final int text_input_password_toggle=0x7f0a01b9;
-    public static final int textinput_counter=0x7f0a01ba;
-    public static final int textinput_error=0x7f0a01bb;
-    public static final int time=0x7f0a01bc;
-    public static final int timeLayout=0x7f0a01bd;
-    public static final int timeOfEvent=0x7f0a01be;
-    public static final int title=0x7f0a01bf;
-    public static final int titleDividerNoCustom=0x7f0a01c0;
-    public static final int title_template=0x7f0a01c1;
-    public static final int toolbar=0x7f0a01c2;
-    public static final int top=0x7f0a01c3;
-    public static final int topPanel=0x7f0a01c4;
-    public static final int touch_outside=0x7f0a01c5;
-    public static final int transition_current_scene=0x7f0a01c6;
-    public static final int transition_layout_save=0x7f0a01c7;
-    public static final int transition_position=0x7f0a01c8;
-    public static final int transition_scene_layoutid_cache=0x7f0a01c9;
-    public static final int transition_transform=0x7f0a01ca;
-    public static final int transparent_view=0x7f0a01cb;
-    public static final int tv_str=0x7f0a01cc;
-    public static final int twittershare=0x7f0a01cd;
-    public static final int uniform=0x7f0a01ce;
-    public static final int up=0x7f0a01cf;
-    public static final int useLogo=0x7f0a01d0;
-    public static final int viceChairpersonLayout=0x7f0a01d1;
-    public static final int view_offset_helper=0x7f0a01d2;
-    public static final int visible=0x7f0a01d3;
-    public static final int withText=0x7f0a01d4;
-    public static final int workingDemo=0x7f0a01d5;
-    public static final int wrap=0x7f0a01d6;
-    public static final int wrap_content=0x7f0a01d7;
-    public static final int zxing_back_button=0x7f0a01d8;
-    public static final int zxing_barcode_scanner=0x7f0a01d9;
-    public static final int zxing_barcode_surface=0x7f0a01da;
-    public static final int zxing_camera_error=0x7f0a01db;
-    public static final int zxing_decode=0x7f0a01dc;
-    public static final int zxing_decode_failed=0x7f0a01dd;
-    public static final int zxing_decode_succeeded=0x7f0a01de;
-    public static final int zxing_possible_result_points=0x7f0a01df;
-    public static final int zxing_preview_failed=0x7f0a01e0;
-    public static final int zxing_prewiew_size_ready=0x7f0a01e1;
-    public static final int zxing_status_view=0x7f0a01e2;
-    public static final int zxing_viewfinder_view=0x7f0a01e3;
+    public static final int ALWAYS=0x7f0a0001;
+    public static final int CTRL=0x7f0a0002;
+    public static final int FUNCTION=0x7f0a0003;
+    public static final int FoodAndCatering=0x7f0a0004;
+    public static final int HospitalityAndReception=0x7f0a0005;
+    public static final int InaugurationAndAwards=0x7f0a0006;
+    public static final int Infrastructure=0x7f0a0007;
+    public static final int InvitationAndRegistrationLayout=0x7f0a0008;
+    public static final int META=0x7f0a0009;
+    public static final int MediaAndPublicity=0x7f0a000a;
+    public static final int NEVER=0x7f0a000b;
+    public static final int OVER=0x7f0a000c;
+    public static final int PrintAndDesign=0x7f0a000d;
+    public static final int ProjectAuthor=0x7f0a000e;
+    public static final int ProjectName=0x7f0a000f;
+    public static final int SHIFT=0x7f0a0010;
+    public static final int SYM=0x7f0a0011;
+    public static final int UNDER=0x7f0a0012;
+    public static final int Venue=0x7f0a0013;
+    public static final int WebAndApp=0x7f0a0014;
+    public static final int action0=0x7f0a0015;
+    public static final int action_back=0x7f0a0016;
+    public static final int action_bar=0x7f0a0017;
+    public static final int action_bar_activity_content=0x7f0a0018;
+    public static final int action_bar_container=0x7f0a0019;
+    public static final int action_bar_root=0x7f0a001a;
+    public static final int action_bar_spinner=0x7f0a001b;
+    public static final int action_bar_subtitle=0x7f0a001c;
+    public static final int action_bar_title=0x7f0a001d;
+    public static final int action_clear=0x7f0a001e;
+    public static final int action_container=0x7f0a001f;
+    public static final int action_context_bar=0x7f0a0020;
+    public static final int action_divider=0x7f0a0021;
+    public static final int action_image=0x7f0a0022;
+    public static final int action_menu_divider=0x7f0a0023;
+    public static final int action_menu_presenter=0x7f0a0024;
+    public static final int action_mode_bar=0x7f0a0025;
+    public static final int action_mode_bar_stub=0x7f0a0026;
+    public static final int action_mode_close_button=0x7f0a0027;
+    public static final int action_text=0x7f0a0028;
+    public static final int action_voice=0x7f0a0029;
+    public static final int actions=0x7f0a002a;
+    public static final int activity_chooser_view_content=0x7f0a002b;
+    public static final int add=0x7f0a002c;
+    public static final int alertTitle=0x7f0a002d;
+    public static final int all=0x7f0a002e;
+    public static final int always=0x7f0a002f;
+    public static final int async=0x7f0a0030;
+    public static final int attr1=0x7f0a0031;
+    public static final int attr1Text=0x7f0a0032;
+    public static final int attr2=0x7f0a0033;
+    public static final int attr2Text=0x7f0a0034;
+    public static final int attr3=0x7f0a0035;
+    public static final int attr3Text=0x7f0a0036;
+    public static final int attr4=0x7f0a0037;
+    public static final int auto=0x7f0a0038;
+    public static final int banner_slider1=0x7f0a0039;
+    public static final int basic=0x7f0a003a;
+    public static final int beginning=0x7f0a003b;
+    public static final int blocking=0x7f0a003c;
+    public static final int bottom=0x7f0a003d;
+    public static final int buttonPanel=0x7f0a003e;
+    public static final int cancel_action=0x7f0a003f;
+    public static final int center=0x7f0a0040;
+    public static final int centerCrop=0x7f0a0041;
+    public static final int center_horizontal=0x7f0a0042;
+    public static final int center_vertical=0x7f0a0043;
+    public static final int chains=0x7f0a0044;
+    public static final int chairpersonLayout=0x7f0a0045;
+    public static final int checkbox=0x7f0a0046;
+    public static final int chronometer=0x7f0a0047;
+    public static final int circle=0x7f0a0048;
+    public static final int clip_horizontal=0x7f0a0049;
+    public static final int clip_vertical=0x7f0a004a;
+    public static final int collapseActionView=0x7f0a004b;
+    public static final int contact_faculty=0x7f0a004c;
+    public static final int contact_faculty_details=0x7f0a004d;
+    public static final int contact_student=0x7f0a004e;
+    public static final int contact_student_details=0x7f0a004f;
+    public static final int container=0x7f0a0050;
+    public static final int contentPanel=0x7f0a0051;
+    public static final int content_frame=0x7f0a0052;
+    public static final int coordinator=0x7f0a0053;
+    public static final int custom=0x7f0a0054;
+    public static final int customPanel=0x7f0a0055;
+    public static final int dash=0x7f0a0056;
+    public static final int date_of_program=0x7f0a0057;
+    public static final int decor_content_parent=0x7f0a0058;
+    public static final int default_activity_button=0x7f0a0059;
+    public static final int design_bottom_sheet=0x7f0a005a;
+    public static final int design_menu_item_action_area=0x7f0a005b;
+    public static final int design_menu_item_action_area_stub=0x7f0a005c;
+    public static final int design_menu_item_text=0x7f0a005d;
+    public static final int design_navigation_view=0x7f0a005e;
+    public static final int disableHome=0x7f0a005f;
+    public static final int drawer_layout=0x7f0a0060;
+    public static final int edit_query=0x7f0a0061;
+    public static final int end=0x7f0a0062;
+    public static final int end_padder=0x7f0a0063;
+    public static final int enterAlways=0x7f0a0064;
+    public static final int enterAlwaysCollapsed=0x7f0a0065;
+    public static final int et_search=0x7f0a0066;
+    public static final int eventName=0x7f0a0067;
+    public static final int exitUntilCollapsed=0x7f0a0068;
+    public static final int expand_activities_button=0x7f0a0069;
+    public static final int expanded_menu=0x7f0a006a;
+    public static final int fab=0x7f0a006b;
+    public static final int faculty=0x7f0a006c;
+    public static final int facultyEmail=0x7f0a006d;
+    public static final int facultyEmail10=0x7f0a006e;
+    public static final int facultyEmail11=0x7f0a006f;
+    public static final int facultyEmail12=0x7f0a0070;
+    public static final int facultyEmail13=0x7f0a0071;
+    public static final int facultyEmail14=0x7f0a0072;
+    public static final int facultyEmail15=0x7f0a0073;
+    public static final int facultyEmail16=0x7f0a0074;
+    public static final int facultyEmail17=0x7f0a0075;
+    public static final int facultyEmail18=0x7f0a0076;
+    public static final int facultyEmail19=0x7f0a0077;
+    public static final int facultyEmail2=0x7f0a0078;
+    public static final int facultyEmail20=0x7f0a0079;
+    public static final int facultyEmail21=0x7f0a007a;
+    public static final int facultyEmail22=0x7f0a007b;
+    public static final int facultyEmail23=0x7f0a007c;
+    public static final int facultyEmail24=0x7f0a007d;
+    public static final int facultyEmail25=0x7f0a007e;
+    public static final int facultyEmail26=0x7f0a007f;
+    public static final int facultyEmail27=0x7f0a0080;
+    public static final int facultyEmail28=0x7f0a0081;
+    public static final int facultyEmail29=0x7f0a0082;
+    public static final int facultyEmail3=0x7f0a0083;
+    public static final int facultyEmail30=0x7f0a0084;
+    public static final int facultyEmail31=0x7f0a0085;
+    public static final int facultyEmail32=0x7f0a0086;
+    public static final int facultyEmail4=0x7f0a0087;
+    public static final int facultyEmail5=0x7f0a0088;
+    public static final int facultyEmail6=0x7f0a0089;
+    public static final int facultyEmail7=0x7f0a008a;
+    public static final int facultyEmail8=0x7f0a008b;
+    public static final int facultyEmail9=0x7f0a008c;
+    public static final int facultyName=0x7f0a008d;
+    public static final int facultyName10=0x7f0a008e;
+    public static final int facultyName11=0x7f0a008f;
+    public static final int facultyName12=0x7f0a0090;
+    public static final int facultyName13=0x7f0a0091;
+    public static final int facultyName14=0x7f0a0092;
+    public static final int facultyName15=0x7f0a0093;
+    public static final int facultyName16=0x7f0a0094;
+    public static final int facultyName17=0x7f0a0095;
+    public static final int facultyName18=0x7f0a0096;
+    public static final int facultyName19=0x7f0a0097;
+    public static final int facultyName2=0x7f0a0098;
+    public static final int facultyName20=0x7f0a0099;
+    public static final int facultyName21=0x7f0a009a;
+    public static final int facultyName22=0x7f0a009b;
+    public static final int facultyName23=0x7f0a009c;
+    public static final int facultyName24=0x7f0a009d;
+    public static final int facultyName25=0x7f0a009e;
+    public static final int facultyName26=0x7f0a009f;
+    public static final int facultyName27=0x7f0a00a0;
+    public static final int facultyName28=0x7f0a00a1;
+    public static final int facultyName29=0x7f0a00a2;
+    public static final int facultyName3=0x7f0a00a3;
+    public static final int facultyName30=0x7f0a00a4;
+    public static final int facultyName31=0x7f0a00a5;
+    public static final int facultyName32=0x7f0a00a6;
+    public static final int facultyName4=0x7f0a00a7;
+    public static final int facultyName5=0x7f0a00a8;
+    public static final int facultyName6=0x7f0a00a9;
+    public static final int facultyName7=0x7f0a00aa;
+    public static final int facultyName8=0x7f0a00ab;
+    public static final int facultyName9=0x7f0a00ac;
+    public static final int fbshare=0x7f0a00ad;
+    public static final int fill=0x7f0a00ae;
+    public static final int fill_horizontal=0x7f0a00af;
+    public static final int fill_vertical=0x7f0a00b0;
+    public static final int firstList=0x7f0a00b1;
+    public static final int firstList1=0x7f0a00b2;
+    public static final int firstList2=0x7f0a00b3;
+    public static final int fitCenter=0x7f0a00b4;
+    public static final int fitXY=0x7f0a00b5;
+    public static final int fixed=0x7f0a00b6;
+    public static final int forever=0x7f0a00b7;
+    public static final int ghost_view=0x7f0a00b8;
+    public static final int home=0x7f0a00b9;
+    public static final int homeAsUp=0x7f0a00ba;
+    public static final int icon=0x7f0a00bb;
+    public static final int icon_group=0x7f0a00bc;
+    public static final int ifRoom=0x7f0a00bd;
+    public static final int image=0x7f0a00be;
+    public static final int imageView=0x7f0a00bf;
+    public static final int info=0x7f0a00c0;
+    public static final int instashare=0x7f0a00c1;
+    public static final int italic=0x7f0a00c2;
+    public static final int item_touch_helper_previous_elevation=0x7f0a00c3;
+    public static final int iv_icon=0x7f0a00c4;
+    public static final int largeLabel=0x7f0a00c5;
+    public static final int left=0x7f0a00c6;
+    public static final int line1=0x7f0a00c7;
+    public static final int line3=0x7f0a00c8;
+    public static final int listMode=0x7f0a00c9;
+    public static final int listView=0x7f0a00ca;
+    public static final int listView1=0x7f0a00cb;
+    public static final int listView2=0x7f0a00cc;
+    public static final int listViewS1=0x7f0a00cd;
+    public static final int listViewS10=0x7f0a00ce;
+    public static final int listViewS2=0x7f0a00cf;
+    public static final int listViewS3=0x7f0a00d0;
+    public static final int listViewS4=0x7f0a00d1;
+    public static final int listViewS5=0x7f0a00d2;
+    public static final int listViewS6=0x7f0a00d3;
+    public static final int listViewS7=0x7f0a00d4;
+    public static final int listViewS8=0x7f0a00d5;
+    public static final int listViewS9=0x7f0a00d6;
+    public static final int list_item=0x7f0a00d7;
+    public static final int masked=0x7f0a00d8;
+    public static final int media_actions=0x7f0a00d9;
+    public static final int message=0x7f0a00da;
+    public static final int middle=0x7f0a00db;
+    public static final int mini=0x7f0a00dc;
+    public static final int multiply=0x7f0a00dd;
+    public static final int myZoomageView=0x7f0a00de;
+    public static final int nameLayout=0x7f0a00df;
+    public static final int name_of_event=0x7f0a00e0;
+    public static final int nav_about_us=0x7f0a00e1;
+    public static final int nav_attractions=0x7f0a00e2;
+    public static final int nav_buttons=0x7f0a00e3;
+    public static final int nav_contact_us=0x7f0a00e4;
+    public static final int nav_home=0x7f0a00e5;
+    public static final int nav_navigate=0x7f0a00e6;
+    public static final int nav_projects=0x7f0a00e7;
+    public static final int nav_schedule=0x7f0a00e8;
+    public static final int nav_view=0x7f0a00e9;
+    public static final int nav_website=0x7f0a00ea;
+    public static final int navigation_header_container=0x7f0a00eb;
+    public static final int never=0x7f0a00ec;
+    public static final int none=0x7f0a00ed;
+    public static final int normal=0x7f0a00ee;
+    public static final int notification_background=0x7f0a00ef;
+    public static final int notification_main_column=0x7f0a00f0;
+    public static final int notification_main_column_container=0x7f0a00f1;
+    public static final int packed=0x7f0a00f2;
+    public static final int parallax=0x7f0a00f3;
+    public static final int parent=0x7f0a00f4;
+    public static final int parentPanel=0x7f0a00f5;
+    public static final int parent_matrix=0x7f0a00f6;
+    public static final int pin=0x7f0a00f7;
+    public static final int profile_image=0x7f0a00f8;
+    public static final int profile_image10=0x7f0a00f9;
+    public static final int profile_image11=0x7f0a00fa;
+    public static final int profile_image12=0x7f0a00fb;
+    public static final int profile_image13=0x7f0a00fc;
+    public static final int profile_image14=0x7f0a00fd;
+    public static final int profile_image15=0x7f0a00fe;
+    public static final int profile_image16=0x7f0a00ff;
+    public static final int profile_image17=0x7f0a0100;
+    public static final int profile_image18=0x7f0a0101;
+    public static final int profile_image19=0x7f0a0102;
+    public static final int profile_image2=0x7f0a0103;
+    public static final int profile_image20=0x7f0a0104;
+    public static final int profile_image21=0x7f0a0105;
+    public static final int profile_image22=0x7f0a0106;
+    public static final int profile_image23=0x7f0a0107;
+    public static final int profile_image24=0x7f0a0108;
+    public static final int profile_image25=0x7f0a0109;
+    public static final int profile_image26=0x7f0a010a;
+    public static final int profile_image27=0x7f0a010b;
+    public static final int profile_image28=0x7f0a010c;
+    public static final int profile_image29=0x7f0a010d;
+    public static final int profile_image3=0x7f0a010e;
+    public static final int profile_image30=0x7f0a010f;
+    public static final int profile_image31=0x7f0a0110;
+    public static final int profile_image32=0x7f0a0111;
+    public static final int profile_image4=0x7f0a0112;
+    public static final int profile_image5=0x7f0a0113;
+    public static final int profile_image6=0x7f0a0114;
+    public static final int profile_image7=0x7f0a0115;
+    public static final int profile_image8=0x7f0a0116;
+    public static final int profile_image9=0x7f0a0117;
+    public static final int profile_images1=0x7f0a0118;
+    public static final int profile_images10=0x7f0a0119;
+    public static final int profile_images11=0x7f0a011a;
+    public static final int profile_images12=0x7f0a011b;
+    public static final int profile_images13=0x7f0a011c;
+    public static final int profile_images14=0x7f0a011d;
+    public static final int profile_images15=0x7f0a011e;
+    public static final int profile_images16=0x7f0a011f;
+    public static final int profile_images17=0x7f0a0120;
+    public static final int profile_images18=0x7f0a0121;
+    public static final int profile_images19=0x7f0a0122;
+    public static final int profile_images20=0x7f0a0123;
+    public static final int profile_images21=0x7f0a0124;
+    public static final int profile_images22=0x7f0a0125;
+    public static final int profile_images23=0x7f0a0126;
+    public static final int profile_images24=0x7f0a0127;
+    public static final int profile_images25=0x7f0a0128;
+    public static final int profile_images26=0x7f0a0129;
+    public static final int profile_images27=0x7f0a012a;
+    public static final int profile_images28=0x7f0a012b;
+    public static final int profile_images3=0x7f0a012c;
+    public static final int profile_images4=0x7f0a012d;
+    public static final int profile_images5=0x7f0a012e;
+    public static final int profile_images6=0x7f0a012f;
+    public static final int profile_images7=0x7f0a0130;
+    public static final int profile_images8=0x7f0a0131;
+    public static final int profile_images9=0x7f0a0132;
+    public static final int profile_imagess1=0x7f0a0133;
+    public static final int profile_imagess2=0x7f0a0134;
+    public static final int progressBar=0x7f0a0135;
+    public static final int progress_circular=0x7f0a0136;
+    public static final int progress_horizontal=0x7f0a0137;
+    public static final int radio=0x7f0a0138;
+    public static final int rateProject=0x7f0a0139;
+    public static final int ratingBar=0x7f0a013a;
+    public static final int right=0x7f0a013b;
+    public static final int right_icon=0x7f0a013c;
+    public static final int right_side=0x7f0a013d;
+    public static final int round_square=0x7f0a013e;
+    public static final int save_image_matrix=0x7f0a013f;
+    public static final int save_non_transition_alpha=0x7f0a0140;
+    public static final int save_scale_type=0x7f0a0141;
+    public static final int schedule=0x7f0a0142;
+    public static final int screen=0x7f0a0143;
+    public static final int scroll=0x7f0a0144;
+    public static final int scrollIndicatorDown=0x7f0a0145;
+    public static final int scrollIndicatorUp=0x7f0a0146;
+    public static final int scrollView=0x7f0a0147;
+    public static final int scrollable=0x7f0a0148;
+    public static final int search_badge=0x7f0a0149;
+    public static final int search_bar=0x7f0a014a;
+    public static final int search_button=0x7f0a014b;
+    public static final int search_close_btn=0x7f0a014c;
+    public static final int search_edit_frame=0x7f0a014d;
+    public static final int search_go_btn=0x7f0a014e;
+    public static final int search_layout=0x7f0a014f;
+    public static final int search_mag_icon=0x7f0a0150;
+    public static final int search_plate=0x7f0a0151;
+    public static final int search_src_text=0x7f0a0152;
+    public static final int search_voice_btn=0x7f0a0153;
+    public static final int searchbar=0x7f0a0154;
+    public static final int seeProject=0x7f0a0155;
+    public static final int select_dialog_listview=0x7f0a0156;
+    public static final int shortcut=0x7f0a0157;
+    public static final int showCustom=0x7f0a0158;
+    public static final int showHome=0x7f0a0159;
+    public static final int showTitle=0x7f0a015a;
+    public static final int smallLabel=0x7f0a015b;
+    public static final int snackbar_action=0x7f0a015c;
+    public static final int snackbar_text=0x7f0a015d;
+    public static final int snap=0x7f0a015e;
+    public static final int social_media_icon=0x7f0a015f;
+    public static final int spacer=0x7f0a0160;
+    public static final int special_events=0x7f0a0161;
+    public static final int split_action_bar=0x7f0a0162;
+    public static final int spread=0x7f0a0163;
+    public static final int spread_inside=0x7f0a0164;
+    public static final int square=0x7f0a0165;
+    public static final int src_atop=0x7f0a0166;
+    public static final int src_in=0x7f0a0167;
+    public static final int src_over=0x7f0a0168;
+    public static final int start=0x7f0a0169;
+    public static final int status_bar_latest_event_content=0x7f0a016a;
+    public static final int student=0x7f0a016b;
+    public static final int studentEmail=0x7f0a016c;
+    public static final int studentEmails1=0x7f0a016d;
+    public static final int studentEmails10=0x7f0a016e;
+    public static final int studentEmails11=0x7f0a016f;
+    public static final int studentEmails12=0x7f0a0170;
+    public static final int studentEmails13=0x7f0a0171;
+    public static final int studentEmails14=0x7f0a0172;
+    public static final int studentEmails15=0x7f0a0173;
+    public static final int studentEmails16=0x7f0a0174;
+    public static final int studentEmails17=0x7f0a0175;
+    public static final int studentEmails18=0x7f0a0176;
+    public static final int studentEmails19=0x7f0a0177;
+    public static final int studentEmails2=0x7f0a0178;
+    public static final int studentEmails20=0x7f0a0179;
+    public static final int studentEmails21=0x7f0a017a;
+    public static final int studentEmails22=0x7f0a017b;
+    public static final int studentEmails23=0x7f0a017c;
+    public static final int studentEmails24=0x7f0a017d;
+    public static final int studentEmails25=0x7f0a017e;
+    public static final int studentEmails26=0x7f0a017f;
+    public static final int studentEmails27=0x7f0a0180;
+    public static final int studentEmails28=0x7f0a0181;
+    public static final int studentEmails3=0x7f0a0182;
+    public static final int studentEmails4=0x7f0a0183;
+    public static final int studentEmails5=0x7f0a0184;
+    public static final int studentEmails6=0x7f0a0185;
+    public static final int studentEmails7=0x7f0a0186;
+    public static final int studentEmails8=0x7f0a0187;
+    public static final int studentEmails9=0x7f0a0188;
+    public static final int studentName=0x7f0a0189;
+    public static final int studentNames1=0x7f0a018a;
+    public static final int studentNames10=0x7f0a018b;
+    public static final int studentNames11=0x7f0a018c;
+    public static final int studentNames12=0x7f0a018d;
+    public static final int studentNames13=0x7f0a018e;
+    public static final int studentNames14=0x7f0a018f;
+    public static final int studentNames15=0x7f0a0190;
+    public static final int studentNames16=0x7f0a0191;
+    public static final int studentNames17=0x7f0a0192;
+    public static final int studentNames18=0x7f0a0193;
+    public static final int studentNames19=0x7f0a0194;
+    public static final int studentNames2=0x7f0a0195;
+    public static final int studentNames20=0x7f0a0196;
+    public static final int studentNames21=0x7f0a0197;
+    public static final int studentNames22=0x7f0a0198;
+    public static final int studentNames23=0x7f0a0199;
+    public static final int studentNames24=0x7f0a019a;
+    public static final int studentNames25=0x7f0a019b;
+    public static final int studentNames26=0x7f0a019c;
+    public static final int studentNames27=0x7f0a019d;
+    public static final int studentNames28=0x7f0a019e;
+    public static final int studentNames3=0x7f0a019f;
+    public static final int studentNames4=0x7f0a01a0;
+    public static final int studentNames44=0x7f0a01a1;
+    public static final int studentNames5=0x7f0a01a2;
+    public static final int studentNames6=0x7f0a01a3;
+    public static final int studentNames7=0x7f0a01a4;
+    public static final int studentNames8=0x7f0a01a5;
+    public static final int studentNames9=0x7f0a01a6;
+    public static final int studentPhone=0x7f0a01a7;
+    public static final int studentPhones1=0x7f0a01a8;
+    public static final int studentPhones10=0x7f0a01a9;
+    public static final int studentPhones2=0x7f0a01aa;
+    public static final int studentPhones28=0x7f0a01ab;
+    public static final int studentPhones3=0x7f0a01ac;
+    public static final int studentPhones5=0x7f0a01ad;
+    public static final int studentPhones6=0x7f0a01ae;
+    public static final int studentPhones7=0x7f0a01af;
+    public static final int studentPhones8=0x7f0a01b0;
+    public static final int studentPhones9=0x7f0a01b1;
+    public static final int submenuarrow=0x7f0a01b2;
+    public static final int submit_area=0x7f0a01b3;
+    public static final int suggestion_list=0x7f0a01b4;
+    public static final int tabMode=0x7f0a01b5;
+    public static final int text=0x7f0a01b6;
+    public static final int text2=0x7f0a01b7;
+    public static final int textSpacerNoButtons=0x7f0a01b8;
+    public static final int textSpacerNoTitle=0x7f0a01b9;
+    public static final int textView2=0x7f0a01ba;
+    public static final int textViewImageUrl=0x7f0a01bb;
+    public static final int textViewName=0x7f0a01bc;
+    public static final int text_input_password_toggle=0x7f0a01bd;
+    public static final int textinput_counter=0x7f0a01be;
+    public static final int textinput_error=0x7f0a01bf;
+    public static final int time=0x7f0a01c0;
+    public static final int timeLayout=0x7f0a01c1;
+    public static final int timeOfEvent=0x7f0a01c2;
+    public static final int title=0x7f0a01c3;
+    public static final int titleDividerNoCustom=0x7f0a01c4;
+    public static final int title_template=0x7f0a01c5;
+    public static final int toolbar=0x7f0a01c6;
+    public static final int top=0x7f0a01c7;
+    public static final int topPanel=0x7f0a01c8;
+    public static final int touch_outside=0x7f0a01c9;
+    public static final int transition_current_scene=0x7f0a01ca;
+    public static final int transition_layout_save=0x7f0a01cb;
+    public static final int transition_position=0x7f0a01cc;
+    public static final int transition_scene_layoutid_cache=0x7f0a01cd;
+    public static final int transition_transform=0x7f0a01ce;
+    public static final int transparent_view=0x7f0a01cf;
+    public static final int tv_str=0x7f0a01d0;
+    public static final int twittershare=0x7f0a01d1;
+    public static final int uniform=0x7f0a01d2;
+    public static final int up=0x7f0a01d3;
+    public static final int useLogo=0x7f0a01d4;
+    public static final int viceChairpersonLayout=0x7f0a01d5;
+    public static final int view_offset_helper=0x7f0a01d6;
+    public static final int visible=0x7f0a01d7;
+    public static final int webview=0x7f0a01d8;
+    public static final int webview2=0x7f0a01d9;
+    public static final int withText=0x7f0a01da;
+    public static final int workingDemo=0x7f0a01db;
+    public static final int wrap=0x7f0a01dc;
+    public static final int wrap_content=0x7f0a01dd;
+    public static final int zxing_back_button=0x7f0a01de;
+    public static final int zxing_barcode_scanner=0x7f0a01df;
+    public static final int zxing_barcode_surface=0x7f0a01e0;
+    public static final int zxing_camera_error=0x7f0a01e1;
+    public static final int zxing_decode=0x7f0a01e2;
+    public static final int zxing_decode_failed=0x7f0a01e3;
+    public static final int zxing_decode_succeeded=0x7f0a01e4;
+    public static final int zxing_possible_result_points=0x7f0a01e5;
+    public static final int zxing_preview_failed=0x7f0a01e6;
+    public static final int zxing_prewiew_size_ready=0x7f0a01e7;
+    public static final int zxing_status_view=0x7f0a01e8;
+    public static final int zxing_viewfinder_view=0x7f0a01e9;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0b0000;
@@ -4360,44 +4413,47 @@ public final class R {
     public static final int design_navigation_menu=0x7f0c002e;
     public static final int design_navigation_menu_item=0x7f0c002f;
     public static final int design_text_input_password_icon=0x7f0c0030;
-    public static final int faculty_team_fragment=0x7f0c0031;
-    public static final int faculty_team_list=0x7f0c0032;
-    public static final int home_fragment=0x7f0c0033;
-    public static final int list_item=0x7f0c0034;
-    public static final int maps=0x7f0c0035;
-    public static final int nav_header_main=0x7f0c0036;
-    public static final int notification_action=0x7f0c0037;
-    public static final int notification_action_tombstone=0x7f0c0038;
-    public static final int notification_media_action=0x7f0c0039;
-    public static final int notification_media_cancel_action=0x7f0c003a;
-    public static final int notification_template_big_media=0x7f0c003b;
-    public static final int notification_template_big_media_custom=0x7f0c003c;
-    public static final int notification_template_big_media_narrow=0x7f0c003d;
-    public static final int notification_template_big_media_narrow_custom=0x7f0c003e;
-    public static final int notification_template_custom_big=0x7f0c003f;
-    public static final int notification_template_icon_group=0x7f0c0040;
-    public static final int notification_template_lines_media=0x7f0c0041;
-    public static final int notification_template_media=0x7f0c0042;
-    public static final int notification_template_media_custom=0x7f0c0043;
-    public static final int notification_template_part_chronometer=0x7f0c0044;
-    public static final int notification_template_part_time=0x7f0c0045;
-    public static final int projects_fragment=0x7f0c0046;
-    public static final int projects_list=0x7f0c0047;
-    public static final int rate_project_popup=0x7f0c0048;
-    public static final int schedule_fragment=0x7f0c0049;
-    public static final int schedule_list=0x7f0c004a;
-    public static final int search_view=0x7f0c004b;
-    public static final int select_dialog_item_material=0x7f0c004c;
-    public static final int select_dialog_multichoice_material=0x7f0c004d;
-    public static final int select_dialog_singlechoice_material=0x7f0c004e;
-    public static final int student_team_fragment=0x7f0c004f;
-    public static final int student_team_fragment2=0x7f0c0050;
-    public static final int student_team_list=0x7f0c0051;
-    public static final int support_simple_spinner_dropdown_item=0x7f0c0052;
-    public static final int tooltip=0x7f0c0053;
-    public static final int workingdemo_fragment=0x7f0c0054;
-    public static final int zxing_barcode_scanner=0x7f0c0055;
-    public static final int zxing_capture=0x7f0c0056;
+    public static final int faculty=0x7f0c0031;
+    public static final int faculty_team_fragment=0x7f0c0032;
+    public static final int faculty_team_list=0x7f0c0033;
+    public static final int home_fragment=0x7f0c0034;
+    public static final int list_item=0x7f0c0035;
+    public static final int maps=0x7f0c0036;
+    public static final int nav_header_main=0x7f0c0037;
+    public static final int notification_action=0x7f0c0038;
+    public static final int notification_action_tombstone=0x7f0c0039;
+    public static final int notification_media_action=0x7f0c003a;
+    public static final int notification_media_cancel_action=0x7f0c003b;
+    public static final int notification_template_big_media=0x7f0c003c;
+    public static final int notification_template_big_media_custom=0x7f0c003d;
+    public static final int notification_template_big_media_narrow=0x7f0c003e;
+    public static final int notification_template_big_media_narrow_custom=0x7f0c003f;
+    public static final int notification_template_custom_big=0x7f0c0040;
+    public static final int notification_template_icon_group=0x7f0c0041;
+    public static final int notification_template_lines_media=0x7f0c0042;
+    public static final int notification_template_media=0x7f0c0043;
+    public static final int notification_template_media_custom=0x7f0c0044;
+    public static final int notification_template_part_chronometer=0x7f0c0045;
+    public static final int notification_template_part_time=0x7f0c0046;
+    public static final int projects_fragment=0x7f0c0047;
+    public static final int projects_list=0x7f0c0048;
+    public static final int rate_project=0x7f0c0049;
+    public static final int rate_project_popup=0x7f0c004a;
+    public static final int schedule_fragment=0x7f0c004b;
+    public static final int schedule_list=0x7f0c004c;
+    public static final int search_view=0x7f0c004d;
+    public static final int select_dialog_item_material=0x7f0c004e;
+    public static final int select_dialog_multichoice_material=0x7f0c004f;
+    public static final int select_dialog_singlechoice_material=0x7f0c0050;
+    public static final int student_team_fragment=0x7f0c0051;
+    public static final int student_team_fragment2=0x7f0c0052;
+    public static final int student_team_list=0x7f0c0053;
+    public static final int studentte=0x7f0c0054;
+    public static final int support_simple_spinner_dropdown_item=0x7f0c0055;
+    public static final int tooltip=0x7f0c0056;
+    public static final int workingdemo_fragment=0x7f0c0057;
+    public static final int zxing_barcode_scanner=0x7f0c0058;
+    public static final int zxing_capture=0x7f0c0059;
   }
   public static final class menu {
     public static final int activity_main_drawer=0x7f0d0000;
@@ -15176,6 +15232,122 @@ public final class R {
      */
     public static final int View_theme=4;
     /**
+     * Attributes that can be used with a ZoomageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_animateOnReset in.ac.iitd.openhouse.openhouseapp:zoomage_animateOnReset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_autoCenter in.ac.iitd.openhouse.openhouseapp:zoomage_autoCenter}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_autoResetMode in.ac.iitd.openhouse.openhouseapp:zoomage_autoResetMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_maxScale in.ac.iitd.openhouse.openhouseapp:zoomage_maxScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_minScale in.ac.iitd.openhouse.openhouseapp:zoomage_minScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_restrictBounds in.ac.iitd.openhouse.openhouseapp:zoomage_restrictBounds}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_translatable in.ac.iitd.openhouse.openhouseapp:zoomage_translatable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ZoomageView_zoomage_zoomable in.ac.iitd.openhouse.openhouseapp:zoomage_zoomable}</code></td><td></td></tr>
+     * </table>
+     * @see #ZoomageView_zoomage_animateOnReset
+     * @see #ZoomageView_zoomage_autoCenter
+     * @see #ZoomageView_zoomage_autoResetMode
+     * @see #ZoomageView_zoomage_maxScale
+     * @see #ZoomageView_zoomage_minScale
+     * @see #ZoomageView_zoomage_restrictBounds
+     * @see #ZoomageView_zoomage_translatable
+     * @see #ZoomageView_zoomage_zoomable
+     */
+    public static final int[] ZoomageView={
+        0x7f04019b, 0x7f04019c, 0x7f04019d, 0x7f04019e, 
+        0x7f04019f, 0x7f0401a0, 0x7f0401a1, 0x7f0401a2
+      };
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_animateOnReset}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_animateOnReset
+     */
+    public static final int ZoomageView_zoomage_animateOnReset=0;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_autoCenter}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_autoCenter
+     */
+    public static final int ZoomageView_zoomage_autoCenter=1;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_autoResetMode}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ALWAYS</td><td>2</td><td></td></tr>
+     * <tr><td>NEVER</td><td>3</td><td></td></tr>
+     * <tr><td>OVER</td><td>1</td><td></td></tr>
+     * <tr><td>UNDER</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_autoResetMode
+     */
+    public static final int ZoomageView_zoomage_autoResetMode=2;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_maxScale}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_maxScale
+     */
+    public static final int ZoomageView_zoomage_maxScale=3;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_minScale}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_minScale
+     */
+    public static final int ZoomageView_zoomage_minScale=4;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_restrictBounds}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_restrictBounds
+     */
+    public static final int ZoomageView_zoomage_restrictBounds=5;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_translatable}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_translatable
+     */
+    public static final int ZoomageView_zoomage_translatable=6;
+    /**
+     * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zoomage_zoomable}
+     * attribute's value can be found in the {@link #ZoomageView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name in.ac.iitd.openhouse.openhouseapp:zoomage_zoomable
+     */
+    public static final int ZoomageView_zoomage_zoomable=7;
+    /**
      * Attributes that can be used with a zxing_camera_preview.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -15193,7 +15365,7 @@ public final class R {
      * @see #zxing_camera_preview_zxing_use_texture_view
      */
     public static final int[] zxing_camera_preview={
-        0x7f04019b, 0x7f04019c, 0x7f04019e, 0x7f0401a1
+        0x7f0401a3, 0x7f0401a4, 0x7f0401a6, 0x7f0401a9
       };
     /**
      * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zxing_framing_rect_height}
@@ -15267,7 +15439,7 @@ public final class R {
      * @see #zxing_finder_zxing_viewfinder_mask
      */
     public static final int[] zxing_finder={
-        0x7f04019d, 0x7f04019f, 0x7f0401a2, 0x7f0401a3
+        0x7f0401a5, 0x7f0401a7, 0x7f0401aa, 0x7f0401ab
       };
     /**
      * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zxing_possible_result_points}
@@ -15325,7 +15497,7 @@ public final class R {
      * @see #zxing_view_zxing_scanner_layout
      */
     public static final int[] zxing_view={
-        0x7f0401a0
+        0x7f0401a8
       };
     /**
      * <p>This symbol is the offset where the {@link in.ac.iitd.openhouse.openhouseapp.R.attr#zxing_scanner_layout}

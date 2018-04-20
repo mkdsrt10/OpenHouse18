@@ -105,9 +105,9 @@ public class MainActivity extends AppCompatActivity
                 fragment = new AboutUs();
                 break;
 
-            case R.id.nav_rate_projects:
-                fragment = new projects();
-                break;
+//            case R.id.nav_rate_projects:
+//                fragment = new projects();
+//                break;
 
             case R.id.nav_website:
                 Intent browse = new Intent(Intent.ACTION_VIEW, Uri.parse("http://openhouse.iitd.ac.in/"));

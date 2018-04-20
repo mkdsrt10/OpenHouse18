@@ -15,4 +15,11 @@
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         tools:textSize="18sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="Created by Deepak Korku, Sachin, Mayank Dubey, Medha Kant"/>
+
 </RelativeLayout>

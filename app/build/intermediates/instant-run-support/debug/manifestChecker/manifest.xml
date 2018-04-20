@@ -49,6 +49,7 @@
 
         <activity
             android:name="in.ac.iitd.openhouse.openhouseapp.Splash"
+            android:icon="@drawable/logo"
             android:label="@string/title_activity_splash"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>

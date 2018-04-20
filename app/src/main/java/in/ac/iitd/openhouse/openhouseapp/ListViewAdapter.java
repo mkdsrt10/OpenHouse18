@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -16,11 +18,10 @@ import java.util.Locale;
  * Created by mayankdubey on 17/03/18.
  */
 
-public class ListViewAdapter extends ArrayAdapter<Hero> {
+public class ListViewAdapter extends ArrayAdapter<Hero> implements Filterable {
 
     //the hero list that will be displayed
     private List<Hero> heroList;
-    private ArrayList<Hero> arrayList;
 
     //the context object
     private Context mCtx;
@@ -31,8 +32,6 @@ public class ListViewAdapter extends ArrayAdapter<Hero> {
         super(mCtx, R.layout.projects_list, heroList);
         this.heroList = heroList;
         this.mCtx = mCtx;
-        this.arrayList = new ArrayList<Hero>();
-        this.arrayList.addAll(heroList);
     }
 
     //this method will return the list item
@@ -47,32 +46,54 @@ public class ListViewAdapter extends ArrayAdapter<Hero> {
         //getting text views
         TextView textViewName = listViewItem.findViewById(R.id.textViewName);
         TextView textViewImageUrl = listViewItem.findViewById(R.id.textViewImageUrl);
+        if (position<heroList.size()){
 
+            Hero hero = heroList.get(position);
+
+            //setting hero values to textviews
+            textViewName.setText(hero.getName());
+            textViewImageUrl.setText(hero.getImageUrl());
+        }
         //Getting the hero for the specified position
-        Hero hero = heroList.get(position);
 
-        //setting hero values to textviews
-        textViewName.setText(hero.getName());
-        textViewImageUrl.setText(hero.getImageUrl());
 
         //returning the listitem
         return listViewItem;
     }
 
-    public void filter(String charText) {
-        Log.d("MyApp","I am here");
-        charText = charText.toLowerCase(Locale.getDefault());
-        heroList.clear();
-        if (charText.length() == 0) {
-            heroList.addAll(arrayList);
-        } else {
-            for (Hero wp : heroList) {
-                if (wp.getImageUrl().toLowerCase(Locale.getDefault())
-                        .contains(charText)) {
-                    heroList.add(wp);
-                }
+
+    @Override
+    public Filter getFilter() {
+        Filter filter = new Filter() {
+
+            @SuppressWarnings("unchecked")
+            @Override
+            protected void publishResults(CharSequence constraint, FilterResults results) {
+
+                heroList = (List<Hero>) results.values; // has the filtered values
+                notifyDataSetChanged();  // notifies the data with new filtered values
             }
-        }
-        notifyDataSetChanged();
+
+            @Override
+            protected FilterResults performFiltering(CharSequence charText) {
+                FilterResults results = new FilterResults();
+                ArrayList<Hero> FilteredArrayNames = new ArrayList<Hero>();
+                charText = charText.toString().toLowerCase(Locale.getDefault());
+                if (charText.length() == 0) {
+                    FilteredArrayNames.addAll(heroList);
+                } else {
+                    for (Hero wp : heroList) {
+                        if (wp.getImageUrl().toLowerCase(Locale.getDefault())
+                                .contains(charText)) {
+                            FilteredArrayNames.add(wp);
+                        }
+                    }
+                }
+                results.values = FilteredArrayNames;
+                results.count = FilteredArrayNames.size();
+                return results;
+            }
+        };
+        return filter;
     }
 }

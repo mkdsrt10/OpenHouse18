@@ -2,12 +2,15 @@ package in.ac.iitd.openhouse.openhouseapp;
 
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -34,6 +37,7 @@ import java.util.List;
 public class FacultyTeam extends Fragment {
 
     Activity context;
+    private String postUrl = "http://openhouse.iitd.ac.in/#!/mobilefaculty";
 
 
     @Nullable
@@ -43,7 +47,30 @@ public class FacultyTeam extends Fragment {
         //change R.layout.yourlayoutfilename for each of your fragments
         context = getActivity();
 
-        View view = inflater.inflate(R.layout.faculty_team_fragment, container, false);
+        View view = inflater.inflate(R.layout.faculty, container, false);
+        WebView webView = (WebView) view.findViewById(R.id.webview2);
+
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(final WebView view, final String url) {
+                return false;
+            }
+
+            @Override
+            public void onPageStarted(final WebView view, final String url, final Bitmap favicon) {
+
+                super.onPageStarted(view, url, favicon);
+            }
+
+            @Override
+            public void onPageFinished(final WebView view, final String url) {
+
+                super.onPageFinished(view, url);
+            }
+        });
+        webView.loadUrl(postUrl);
+        webView.setHorizontalScrollBarEnabled(false);
 
         return view;
 
@@ -54,6 +81,9 @@ public class FacultyTeam extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
         getActivity().setTitle("Faculty Team");
+
+
+
 
     }
 
